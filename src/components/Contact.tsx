@@ -23,7 +23,7 @@ const Contact = () => {
               <div className="icon" style={{ borderLeftColor: 'red', fontSize: '24px' }}>
                 <i className="fa-solid fa-address-book"></i>
               </div>
-              <h5>Address</h5>
+              <h5 className='fw-semibold text-primary'>Address</h5>
               <h6>1-chōme-20-17 Hyakuninchō, Shinjuku City, Tokyo 169-0073</h6>
             </div>
 
@@ -31,18 +31,16 @@ const Contact = () => {
               <div className="icon">
                 <i className="fa-regular fa-envelope"></i>
               </div>
-              <h5>Email</h5>
+              <h5 className='fw-semibold text-primary'>Email</h5>
               <h6>info@globalpay.co.jp</h6>
             </div>
-
             <div className="col-xl-4 contact-item">
               <div className="icon">
                 <i className="fa-solid fa-phone"></i>
               </div>
-              <h5>Call Us: <strong style={{ fontSize: "15px", fontWeight: "400" }}>+81 03-6687-7736</strong></h5>
-              <h5>WhatsApp: <strong style={{ fontSize: "15px", fontWeight: "400" }}>+81 03-6687-7736</strong></h5>
-              <h5>Viber: <strong style={{ fontSize:"15px", fontWeight:"400"}}>+81 03-6687-7736</strong></h5>
-              <h6></h6>
+              <h6 className='fw-semibold text-primary'>Call Us: <strong style={{ fontSize: "15px", fontWeight: "400", color:'black' }}>+81 03-6687-7736</strong></h6>
+              <h6 className='fw-semibold text-primary'>WhatsApp: <strong style={{ fontSize: "15px", fontWeight: "400", color: 'black' }}>+81 03-6687-7736</strong></h6>
+              <h6 className='fw-semibold text-primary'>Viber: <strong style={{ fontSize: "15px", fontWeight: "400", color: 'black' }}>+81 03-6687-7736</strong></h6>
             </div>
           </div>
           <div className="">

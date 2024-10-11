@@ -1,17 +1,18 @@
 /* eslint-disable @next/next/no-img-element */
+import { useTranslations } from 'next-intl';
 
 import { Link } from '@/i18n/routing';
 
 const Services = () => {
+  const t = useTranslations('Services');
+
   return (
     <div id="services">
       <div className="container">
         <div className="section">
-          <h3 className="section__title">Our Services</h3>
+          <h3 className="section__title">{t("heading")}</h3>
           <p className="section__subtitle">
-            We provide a range of expert services tailored to support your
-            career and life abroad, including job placements, SSW visa
-            assistance, and much more.
+            {t("subtitle")}
           </p>
 
           <div className="row service-container">
@@ -24,12 +25,9 @@ const Services = () => {
                     </div>
                     <div>
                       <h5 className="fw-semibold text-primary">
-                        Job Placement Assistance
+                        {t("heading1")}
                       </h5>
-                      <p>
-                        Helping individuals find the right job opportunities
-                        under the SSW program.
-                      </p>
+                      <p>{t("paragraph1")}</p>
                     </div>
                   </div>
                 </div>
@@ -40,12 +38,9 @@ const Services = () => {
                     </div>
                     <div>
                       <h5 className="fw-semibold text-primary">
-                        Support for Nepali Graduates
+                        {t("heading2")}
                       </h5>
-                      <p>
-                        Dedicated services for Nepali graduates seeking global
-                        career paths.
-                      </p>
+                      <p>{t("paragraph2")}</p>
                     </div>
                   </div>
                 </div>
@@ -57,12 +52,9 @@ const Services = () => {
                     </div>
                     <div>
                       <h5 className="fw-semibold text-primary">
-                        Personalized Career Counseling
+                        {t("heading3")}
                       </h5>
-                      <p>
-                        One-on-one career guidance tailored to your goals and
-                        needs.
-                      </p>
+                      <p>{t("paragraph3")}</p>
                     </div>
                   </div>
                 </div>
@@ -74,12 +66,9 @@ const Services = () => {
                     </div>
                     <div>
                       <h5 className="fw-semibold text-primary">
-                        Employer Partnerships
+                        {t("heading4")}
                       </h5>
-                      <p>
-                        We partner with employers to match candidates with
-                        suitable roles.
-                      </p>
+                      <p>{t("paragraph4")}</p>
                     </div>
                   </div>
                 </div>
@@ -95,12 +84,9 @@ const Services = () => {
                     </div>
                     <div>
                       <h5 className="fw-semibold text-primary">
-                        Comprehensive Support for SSW (i) and SSW (ii)
+                        {t("heading5")}
                       </h5>
-                      <p>
-                        Assistance for those pursuing SSW visas and the
-                        transition process.
-                      </p>
+                      <p>{t("paragraph5")}</p>
                     </div>
                   </div>
                 </div>
@@ -110,13 +96,9 @@ const Services = () => {
                       <i className="fa-solid fa-industry"></i>
                     </div>
                     <div>
-                      <h5 className="fw-semibold text-primary">
-                        Industry-Specific Expertise
-                      </h5>
-                      <p>
-                        Expert guidance in various industries, matching you with
-                        relevant roles.
-                      </p>
+                      <p>{t("paragraph4")}</p>
+                      <h5 className="fw-semibold text-primary">{t("heading6")}</h5>
+                      <p>{t("paragraph6")}</p>
                     </div>
                   </div>
                 </div>
@@ -127,13 +109,8 @@ const Services = () => {
                       <i className="fa-solid fa-users"></i>
                     </div>
                     <div>
-                      <h5 className="fw-semibold text-primary">
-                        End-to-End Recruitment Services
-                      </h5>
-                      <p>
-                        Full recruitment services to simplify the hiring and
-                        onboarding process.
-                      </p>
+                      <h5 className="fw-semibold text-primary">{t("heading7")}</h5>
+                      <p>{t("paragraph7")}</p>
                     </div>
                   </div>
                 </div>
@@ -145,12 +122,9 @@ const Services = () => {
                     </div>
                     <div>
                       <h5 className="fw-semibold text-primary">
-                        Family Support for SSW (ii) Holders
+                        {t("heading8")}
                       </h5>
-                      <p>
-                        Comprehensive support for families of SSW holders moving
-                        abroad.
-                      </p>
+                      <p>{t("heading8")}</p>
                     </div>
                   </div>
                 </div>
@@ -163,7 +137,7 @@ const Services = () => {
               className="btn btn-primary m-auto"
               href="/services/recruitment"
             >
-              Read More
+              {t("read-more")}
             </Link>
           </div>
         </div>

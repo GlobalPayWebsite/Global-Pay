@@ -13,6 +13,7 @@ $link-hover-color: darken(
 
 body {
   font-family: 'Montserrat', sans-serif;
+  // background-color: #f5f6f4;
 }
 
 .carousel-item {
@@ -156,9 +157,12 @@ body {
         text-align: center;
         border: 2px solid #c2282c;
         border-radius: 8px;
-        height: 100%;
-        border-bottom: 6px solid #c2282c;
-        box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.025);
+        height: 100%; 
+        // border: 1px solid #f44e4e;
+        box-shadow: 2px 5px #c2282c;
+        border-radius: 15px 50px;
+        // border-bottom: 6px solid #c2282c;
+        // box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.025);
       }
     }
   }
@@ -294,8 +298,8 @@ body {
       text-align: center;
       padding: 24px;
       flex: 1;
-      border: 1px solid rgba(0, 0, 0, 0.1);
-      box-shadow: 5px 10px rgba(132, 116, 116, 0.08);
+      border: 1px solid #f44e4e;
+      box-shadow: 5px 10px #c2282c;
       border-radius: 15px 50px;
 
       .icon {
@@ -429,7 +433,6 @@ body {
     }
   }
 }
-
 #real-estate {
   background: rgba(0, 0, 0, 0.025);
 }

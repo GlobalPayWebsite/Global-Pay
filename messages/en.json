@@ -26,5 +26,26 @@
       "paragraph2": "Assisting with the SSW visa process to work in Japan.",
       "paragraph3": "Providing rental assistance with multilingual support in Japan.",
       "paragraph4": "Guiding students for abroad study to the USA, Australia, and Canada."
-    }
+    },
+      "Services": {
+        "heading": "Our Services",
+        "subtitle": "We provide a range of expert services tailored to support your career and life abroad, including job placements, SSW visaassistance, and much more.",
+        "heading1":"Job Placement Assistance",
+        "heading2":"Support for Nepali Graduates",
+        "heading3":"Personalized Career Counseling",
+        "heading4":"Employer Partnerships",
+        "heading5":"Comprehensive Support for SSW (i) and SSW (ii)",
+        "heading6":"Industry-Specific Expertise",
+        "heading7": "End-to-End Recruitment Services",
+        "heading8": "Family Support for SSW (ii) Holders",
+        "paragraph1": "Helping individuals find the right job opportunities under the SSW program.",
+        "paragraph2": "Dedicated services for Nepali graduates seeking global career paths.",
+        "paragraph3": "One-on-one career guidance tailored to your goals and needs.",
+        "paragraph4": "We partner with employers to match candidates with suitable roles.",
+        "paragraph5": "Assistance for those pursuing SSW visas and the transition process.",
+        "paragraph6": "Expert guidance in various industries, matching you with relevant roles.",
+        "paragraph7": "Full recruitment services to simplify the hiring and onboarding process.",
+        "paragraph8": "Comprehensive support for families of SSW holders moving abroad.",
+        "read-more":"Read More"
+      }
 }
