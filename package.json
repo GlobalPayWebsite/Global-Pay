@@ -1,0 +1,32 @@
+{
+  "name": "globalpay",
+  "version": "0.1.0",
+  "private": true,
+  "author": "Aashish Maharjan",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.8",
+    "bootstrap": "5.3",
+    "marked": "^14.1.2",
+    "next": "14.2.14",
+    "next-intl": "^3.21.1",
+    "react": "^18",
+    "react-dom": "^18",
+    "sass": "^1.79.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.14",
+    "postcss": "^8",
+    "prettier": "^3.3.3",
+    "typescript": "^5"
+  }
+}

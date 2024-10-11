@@ -1,0 +1,30 @@
+{
+  "HomePage": {
+    "title": "Hello World!",
+    "about": "Go to the about page"
+  },
+  "Navigation": {
+    "home": "Home",
+    "aboutUs": "About Us",
+    "services": "Services",
+    "contact": "Contact"
+  },
+  "Caraousel": {
+    "heading": "Your Global",
+    "sub-heading":"Partner",
+    "paragraph": "At Global Pay, we offer seamless solutions across recruitment, real estate, and educational consulting. Let us help you navigate your journey to success with tailored services for your needs.",
+    "sub-tag": "Explore Our Services"
+  },
+    "AboutUs": {
+      "about": "About Us",
+      "paragraph": "We provide expert consulting services in Recruitment, SSW visas, Real Estate, Education, and Travel, ensuring personalized support and guidance for all our clients.",
+      "heading1": "Recruitment",
+      "heading2": "SSW",
+      "heading3": "Real State",
+      "heading4": "Education",
+      "paragraph1": "Help individual secure jobs under the ssw program and beyond.",
+      "paragraph2": "Assisting with the SSW visa process to work in Japan.",
+      "paragraph3": "Providing rental assistance with multilingual support in Japan.",
+      "paragraph4": "Guiding students for abroad study to the USA, Australia, and Canada."
+    }
+}

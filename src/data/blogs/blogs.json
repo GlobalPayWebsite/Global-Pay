@@ -1,0 +1,30 @@
+[
+  {
+    "slug": "job-placement-assistance",
+    "imgSrc": "/resource/cover.jpg",
+    "iconClass": "fa-solid fa-briefcase",
+    "title": "Job Placement Assistance",
+    "description": "We specialize in helping individuals residing in Japan find suitable job opportunities. Our team works closely with employers to match candidates with positions that align with their skills and career goals."
+  },
+  {
+    "slugX": "support-for-nepali-graduates",
+    "imgSrc": "/resource/cover.jpg",
+    "iconClass": "fa-solid fa-graduation-cap",
+    "title": "Support for Nepali Graduates",
+    "description": "We are dedicated to assisting Nepali individuals holding a bachelor’s degree who aspire to work in Japan."
+  },
+  {
+    "slugX": "personalized-career-counseling",
+    "imgSrc": "/resource/cover.jpg",
+    "iconClass": "fa-solid fa-user-tie",
+    "title": "Personalized Career Counseling",
+    "description": "Our experienced counselors offer personalized career advice and support, helping candidates understand the job market, refine their resumes, and prepare for interviews."
+  },
+  {
+    "slugX": "employer-partnerships",
+    "imgSrc": "/resource/cover.jpg",
+    "iconClass": "fa-regular fa-handshake",
+    "title": "Employer Partnerships",
+    "description": "We have established strong partnerships with employers across industries in Japan, allowing us to offer candidates exclusive job opportunities."
+  }
+]
