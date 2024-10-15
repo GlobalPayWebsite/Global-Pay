@@ -39,8 +39,8 @@ const Contact = () => {
                 <i className="fa-solid fa-phone"></i>
               </div>
               <h6 className='fw-semibold text-primary'>Call Us: <strong style={{ fontSize: "15px", fontWeight: "400", color:'black' }}>+81 03-6687-7736</strong></h6>
-              <h6 className='fw-semibold text-primary'>WhatsApp: <strong style={{ fontSize: "15px", fontWeight: "400", color: 'black' }}>+81 03-6687-7736</strong></h6>
-              <h6 className='fw-semibold text-primary'>Viber: <strong style={{ fontSize: "15px", fontWeight: "400", color: 'black' }}>+81 03-6687-7736</strong></h6>
+              <h6 className='fw-semibold text-primary'>WhatsApp: <strong style={{ fontSize: "15px", fontWeight: "400", color: 'black' }}>+81 90-9246-9379</strong></h6>
+              <h6 className='fw-semibold text-primary'>Viber: <strong style={{ fontSize: "15px", fontWeight: "400", color: 'black' }}>+81 90-9246-9379</strong></h6>
             </div>
           </div>
           <div className="">

@@ -7,6 +7,7 @@ import Services from '@/components/Services';
 import Spacing from '@/components/Spacing';
 import Team from '@/components/Team';
 import WhyUs from '@/components/WhyUs';
+import Counter from '@/components/Counter';
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
         <AboutUs />
         <Services />
         <WhyUs />
+        <Counter />
         <Team />
         <Blogs />
       </main>

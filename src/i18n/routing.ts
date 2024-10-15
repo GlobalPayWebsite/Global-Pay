@@ -3,15 +3,15 @@ import { createSharedPathnamesNavigation } from 'next-intl/navigation';
 
 export const routing = defineRouting({
   // A list of all locales that are supported
-  locales: ['jp', 'en'],
+  locales: ['en', 'jp'],
 
   // Used when no locale matches
-  defaultLocale: 'jp',
+  defaultLocale: 'en',
   pathnames: {
     '/': '/',
     '/pathnames': {
-      jp: '/pfadamen',
       en: '/pathnames',
+      jp: '/pfadamen',
     },
   },
 });

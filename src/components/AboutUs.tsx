@@ -35,7 +35,7 @@ const AboutUs = () => {
                         />
                       </div>
                       <h5 className="fw-semibold text-primary">{t("heading1")}</h5>
-                      <p>{t("paragraph1")}</p>
+                        <p>{t("paragraph1")}</p>
                     </div>
                   </div>
 

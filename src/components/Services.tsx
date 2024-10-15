@@ -8,16 +8,15 @@ const Services = () => {
 
   return (
     <div id="services">
-      <div className="container">
+      <div className="container animate__backInLeft">
         <div className="section">
           <h3 className="section__title">{t("heading")}</h3>
           <p className="section__subtitle">
             {t("subtitle")}
           </p>
-
           <div className="row service-container">
             <div className="col-md-12 col-lg-6">
-              <div className="row">
+              <div className="row ">
                 <div className="col-12">
                   <div className="service-item">
                     <div className="icon">
@@ -96,7 +95,6 @@ const Services = () => {
                       <i className="fa-solid fa-industry"></i>
                     </div>
                     <div>
-                      <p>{t("paragraph4")}</p>
                       <h5 className="fw-semibold text-primary">{t("heading6")}</h5>
                       <p>{t("paragraph6")}</p>
                     </div>

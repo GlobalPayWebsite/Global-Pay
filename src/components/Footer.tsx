@@ -26,7 +26,6 @@ const Footer = () => {
                 Global Pay
               </span>
             </Link>
-
             <em className="d-block pb-2">
               1-chōme-20-17 Hyakuninchō, <br />
               Shinjuku City, Tokyo 169-0073
@@ -96,6 +95,9 @@ const Footer = () => {
               </li>
               <li>
                 <Link href="/blog/disclaimer">Disclaimer</Link>
+              </li>
+              <li>
+                <Link href={"/blog/use-of this site"}>Use of this site</Link>
               </li>
             </ul>
 
