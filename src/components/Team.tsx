@@ -1,17 +1,16 @@
 import { Link } from '@/i18n/routing';
+import { useTranslations } from "next-intl";
 
 /* eslint-disable @next/next/no-img-element */
 const Team = () => {
+  const t = useTranslations("MeetOurTeam")
+
   return (
     <div id="team">
       <div className="container">
         <div className="section">
-          <h3 className="section__title">Meet Our Team</h3>
-          <p className="section__subtitle">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam sint
-            minima modi tempora nihil voluptatem aperiam enim. Cum, quasi
-            dolorem!
-          </p>
+          <h3 className="section__title">{t("title")}</h3>
+          <p className="section__subtitle">{t("subtitle")}</p>
 
           <section className="team-section">
             <div className="row">
@@ -26,8 +25,8 @@ const Team = () => {
                     />
                   </div>
                   <div>
-                    <h5>John Doe</h5>
-                    <p>Lead Recruiter</p>
+                    <h5>{t("name1")}</h5>
+                    <p>{t("position1")}</p>
 
                     <div>
                       <Link
@@ -69,8 +68,8 @@ const Team = () => {
                     />
                   </div>
                   <div>
-                    <h5>John Doe</h5>
-                    <p>Lead Recruiter</p>
+                    <h5>{t("name2")}</h5>
+                    <p>{t("position2")}</p>
 
                     <div>
                       <Link
@@ -112,8 +111,8 @@ const Team = () => {
                     />
                   </div>
                   <div>
-                    <h5>John Doe</h5>
-                    <p>Lead Recruiter</p>
+                    <h5>{t("name3")}</h5>
+                    <p>{t("position3")}</p>
 
                     <div>
                       <Link
@@ -155,8 +154,8 @@ const Team = () => {
                     />
                   </div>
                   <div>
-                    <h5>John Doe</h5>
-                    <p>Lead Recruiter</p>
+                    <h5>{t("name4")}</h5>
+                    <p>{t("position4")}</p>
 
                     <div>
                       <Link

@@ -17,7 +17,6 @@ $link-hover-color: darken(
 
 body {
   font-family: "Montserrat", sans-serif;
-  // background-color: #f5f6f4;
 }
 
 .carousel-item {
@@ -81,7 +80,7 @@ body {
   padding: 64px 16px;
   .section__title {
     text-align: center;
-    color: #c2282c;
+    color: $primary;
     text-transform: uppercase;
     font-weight: bold;
   }
@@ -146,7 +145,7 @@ body {
 
       .about__item {
         h5 {
-          color: #c2282c !important;
+          color: $primary !important;
         }
         .icon {
           padding: 8px;
@@ -159,13 +158,13 @@ body {
         // background: rgba(0, 0, 0, 0.025);
         padding: 16px;
         text-align: center;
-        border: 2px solid #c2282c;
+        border: 2px solid $primary;
         border-radius: 8px;
         height: 100%;
         // border: 1px solid #f44e4e;
-        box-shadow: 2px 5px #c2282c;
+        box-shadow: 2px 5px $primary;
         border-radius: 15px 50px;
-        // border-bottom: 6px solid #c2282c;
+        // border-bottom: 6px solid $primary;
         // box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.025);
       }
     }
@@ -191,11 +190,11 @@ body {
       gap: 16px;
 
       h5 {
-        color: #c2282c !important;
+        color: $primary !important;
       }
 
       .icon {
-        color: #c2282c;
+        color: $primary;
         font-size: 32px;
         width: 96px;
         flex-grow: 0;
@@ -203,8 +202,8 @@ body {
         height: 96px;
         line-height: 96px;
         text-align: center;
-        // background: #c2282c;
-        border: 4px solid #c2282c;
+        // background: $primary;
+        border: 4px solid $primary;
         transition: 0.5s all ease;
         border-radius: 16px;
         cursor: pointer;
@@ -212,7 +211,7 @@ body {
 
       &:hover .icon {
         color: white;
-        background: #c2282c;
+        background: $primary;
       }
     }
   }
@@ -221,9 +220,9 @@ body {
   .btn:hover,
   .btn:active {
     color: white;
-    border-color: #c2282c;
-    background-color: #c2282c;
-    outline-color: #c2282c;
+    border-color: $primary;
+    background-color: $primary;
+    outline-color: $primary;
   }
 }
 
@@ -261,7 +260,7 @@ body {
 }
 
 #team {
-  background: rgba(0, 0, 0, 0.025);
+  // background: rgba(0, 0, 0, 0.025);
 
   .team-item {
     background: #ffffff;
@@ -270,7 +269,7 @@ body {
     text-align: center;
 
     h5 {
-      color: #c2282c;
+      color: $primary;
       font-weight: bold;
     }
 
@@ -302,15 +301,15 @@ body {
       text-align: center;
       padding: 24px;
       flex: 1;
-      border: 1px solid #f44e4e;
-      box-shadow: 5px 10px #c2282c;
+      border: 1px solid $primary;
+      box-shadow: 5px 10px $primary;
       border-radius: 15px 50px;
 
       .icon {
-        color: #f44e4e;
+        color: $primary;
         display: inline-block;
-        // border: 1px solid #c2282c;
-        border: 1px solid #f44e4e;
+        // border: 1px solid $primary;
+        border: 1px solid $primary;
         font-size: 36px;
         width: 75px;
         height: 75px;
@@ -369,7 +368,7 @@ body {
 
         &:hover {
           color: #111;
-          border-bottom: 2px solid #c2282c;
+          border-bottom: 2px solid $primary;
         }
       }
     }
@@ -393,7 +392,7 @@ body {
     color: white;
     line-height: 42px;
     height: 42px;
-    background: #c2282c;
+    background: $primary;
     border-radius: 50%;
     position: absolute;
     text-align: center;
@@ -415,7 +414,7 @@ body {
 
     h6 {
       font-size: 20px;
-      color: #c2282c !important;
+      color: $primary !important;
     }
 
     p {
@@ -432,7 +431,7 @@ body {
 
     .service__link {
       text-decoration: none;
-      color: #c2282c;
+      color: $primary;
     }
   }
 }
@@ -451,7 +450,7 @@ body {
 
       &.active {
         color: white;
-        background-color: #c2282c;
+        background-color: $primary;
       }
     }
   }
@@ -606,7 +605,7 @@ body {
 .social-link {
   color: white;
   display: inline-block;
-  background: #c2282c;
+  background: $primary;
   width: 30px;
   line-height: 30px;
   text-align: center;
@@ -627,176 +626,319 @@ body {
 
 // Css for  news and updates
 // CSS FOR COUNTER
-.flex-container {
-  width: 80%;
-  margin: auto;
+// .flex-container {
+//   width: 100%;
+//   margin: auto;
+//   // background: rgba(0, 0, 0, 0.025);
+//   background-color: #111;
+
+// }
+
+// .wrapper {
+//   width: 100%;
+//   height: auto;
+//   display: flex;
+//   flex-wrap: wrap;
+//   justify-content: center;
+//   align-items: center;
+//   gap: 15px;
+// }
+
+// .flex-box {
+//   margin: 5px;
+//   background: $primary;
+//   width: 300px;
+//   height: 180px;
+//   font-size: 30px;
+//   color: white;
+//   border-radius: 10px;
+//   flex: 1 1 10rem;
+// }
+
+// .counter-icon {
+//   width: 80px;
+//   height: auto;
+//   margin: 20px auto;
+//   display: grid;
+//   justify-content: center;
+// }
+
+// .alignnumber {
+//   text-align: center;
+//   font-size: 20px;
+// }
+#news{
+  background-color: rgba(0, 0, 0, 0.025);
 }
 
-.wrapper {
-  width: 100%;
-  height: auto;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  gap: 15px;
-}
+#company-progress {
+  background-color: rgba(0, 0, 0, 0.025);
 
-.flex-box {
-  margin: 5px;
-  background: #c2282c;
-  width: 300px;
-  height: 180px;
-  font-size: 30px;
-  color: white;
-  border-radius: 10px;
-  flex: 1 1 10rem;
-}
+  .container {
+    .section {
+      .section__title {
+        font-size: 30px;
+        text-align: center;
+        color: #333;
+        margin-bottom: 10px;
+      }
 
-.counter-icon {
-  width: 80px;
-  height: auto;
-  margin: 20px auto;
-  display: grid;
-  justify-content: center;
-}
+      .section__subtitle {
+        font-size: 18px;
+        text-align: center;
+        color: #555;
+        margin-bottom: 40px;
+      }
 
-.alignnumber {
-  text-align: center;
-  font-size: 20px;
-}
+      .flex-container {
+        width: 100%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
+        .wrapper {
+          width: 100%;
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          align-items: center;
+          gap: 15px;
+        }
+
+        .flex-box {
+          background: $primary;
+          width: 300px;
+          height: 180px;
+          margin: 5px;
+          font-size: 30px;
+          color: white;
+          border-radius: 10px;
+          flex: 1 1 10rem;
+          text-align: center;
+
+          .counter-icon {
+            width: 80px;
+            height: auto;
+            margin: 20px auto;
+            display: grid;
+            justify-content: center;
+
+            i {
+              font-size: 30px;
+              color: #ffffff;
+            }
+          }
+
+          .alignnumber {
+            font-size: 30px;
+            margin-bottom: 10px;
+          }
+
+          .stat-description {
+            font-size: 18px;
+            margin-top: 10px;
+          }
+        }
+      }
+    }
+  }
+}
 // CSS for Detail page
 // Define color variables for better maintainability
-$background-color: white;
-$overlay-color: MidnightBlue;
-$header-background: url("http://webmadewell.com/wp-content/uploads/2018/01/img-bg-sample-parallax-header.jpg");
-$text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
-$font-family: "Montserrat", sans-serif;
+// $background-color: white;
+// $overlay-color: MidnightBlue;
+// $header-background: url("http://webmadewell.com/wp-content/uploads/2018/01/img-bg-sample-parallax-header.jpg");
+// $text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+// $font-family: "Montserrat", sans-serif;
 
-.webmadewell {
-  background-color: $background-color;
+// .webmadewell {
+//   background-color: $background-color;
 
-  .sample-header {
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 100%;
-    background-image: $header-background;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+//   .sample-header {
+//     position: fixed;
+//     left: 0;
+//     top: 0;
+//     width: 100%;
+//     background-image: $header-background;
+//     background-position: center;
+//     background-size: cover;
+//     background-repeat: no-repeat;
 
-    &::before {
-      content: "";
-      position: absolute;
-      top: 0;
-      right: 0;
-      bottom: 0;
-      left: 0;
-      background-color: $overlay-color;
-      opacity: 0.3;
-    }
+//     &::before {
+//       content: "";
+//       position: absolute;
+//       top: 0;
+//       right: 0;
+//       bottom: 0;
+//       left: 0;
+//       background-color: $overlay-color;
+//       opacity: 0.3;
+//     }
 
-    .sample-header-section {
-      position: relative;
-      padding: 15% 0 10%;
-      max-width: 640px;
-      margin-left: auto;
-      margin-right: auto;
-      color: white;
-      text-shadow: $text-shadow;
-      font-family: $font-family;
+//     .sample-header-section {
+//       position: relative;
+//       padding: 15% 0 10%;
+//       max-width: 640px;
+//       margin-left: auto;
+//       margin-right: auto;
+//       color: white;
+//       text-shadow: $text-shadow;
+//       font-family: $font-family;
 
-      h1 {
-        font-weight: 500;
-      }
+//       h1 {
+//         font-weight: 500;
+//       }
 
-      h2 {
-        font-weight: 400;
-      }
-    }
-  }
+//       h2 {
+//         font-weight: 400;
+//       }
+//     }
+//   }
 
-  .sample-section-wrap {
-    position: relative;
-    background-color: $background-color;
+//   .sample-section-wrap {
+//     position: relative;
+//     background-color: $background-color;
 
-    .sample-section {
-      position: relative;
-      max-width: 640px;
-      margin-left: auto;
-      margin-right: auto;
-      padding: 40px;
-    }
-  }
-}
+//     .sample-section {
+//       position: relative;
+//       max-width: 640px;
+//       margin-left: auto;
+//       margin-right: auto;
+//       padding: 40px;
+//     }
+//   }
+// }
 
 // Css for details page
 // Variables for reusability
 // $background-color: white;
-$header-background: url("http://webmadewell.com/wp-content/uploads/2018/01/img-bg-sample-parallax-header.jpg");
-$overlay-color: MidnightBlue;
-$text-shadow-color: rgba(0, 0, 0, 0.5);
-$font-family: "Montserrat", sans-serif;
+// $header-background: url("http://webmadewell.com/wp-content/uploads/2018/01/img-bg-sample-parallax-header.jpg");
+// $overlay-color: MidnightBlue;
+// $text-shadow-color: rgba(0, 0, 0, 0.5);
+// $font-family: "Montserrat", sans-serif;
+
+// .webmadewell {
+//   // background-color: $background-color;
+//   // background: rgba(0, 0, 0, 0.025);
+
+//   .sample-header {
+//     position: fixed;
+//     left: 0;
+//     top: 0;
+//     width: 100%;
+//     background-image: $header-background;
+//     background-position: center;
+//     background-size: cover;
+//     background-repeat: no-repeat;
+
+//     &::before {
+//       content: "";
+//       position: absolute;
+//       top: 0;
+//       right: 0;
+//       bottom: 0;
+//       left: 0;
+//       background-color: $overlay-color;
+//       opacity: 0.3;
+//     }
+
+//     .sample-header-section {
+//       position: relative;
+//       padding: 15% 0 10%;
+//       max-width: 640px;
+//       margin-left: auto;
+//       margin-right: auto;
+//       color: white;
+//       text-shadow: 1px 1px 4px $text-shadow-color;
+//       font-family: $font-family;
+
+//       h1 {
+//         font-weight: 500;
+//       }
+
+//       h2 {
+//         font-weight: 400;
+//       }
+//     }
+//   }
+
+//   .sample-section-wrap {
+//     position: relative;
+//     background-color: $background-color;
+
+//     .sample-section {
+//       position: relative;
+//       max-width: 640px;
+//       margin-left: auto;
+//       margin-right: auto;
+//       padding: 40px;
+//     }
+//   }
+// }
 
 .webmadewell {
-  // background-color: $background-color;
-
-  .sample-header {
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 100%;
-    background-image: $header-background;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-
-    &::before {
-      content: "";
-      position: absolute;
-      top: 0;
-      right: 0;
-      bottom: 0;
-      left: 0;
-      background-color: $overlay-color;
-      opacity: 0.3;
-    }
-
-    .sample-header-section {
-      position: relative;
-      padding: 15% 0 10%;
-      max-width: 640px;
-      margin-left: auto;
-      margin-right: auto;
-      color: white;
-      text-shadow: 1px 1px 4px $text-shadow-color;
-      font-family: $font-family;
-
-      h1 {
-        font-weight: 500;
-      }
-
-      h2 {
-        font-weight: 400;
-      }
-    }
-  }
-
-  .sample-section-wrap {
-    position: relative;
-    background-color: $background-color;
-
-    .sample-section {
-      position: relative;
-      max-width: 640px;
-      margin-left: auto;
-      margin-right: auto;
-      padding: 40px;
-    }
-  }
+  background-color: white;
 }
+
+body {
+  margin: 0;
+}
+
+.sample-header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  background-image: url("http://webmadewell.com/wp-content/uploads/2018/01/img-bg-sample-parallax-header.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.sample-header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: MidnightBlue;
+  opacity: 0.3;
+}
+
+.sample-header-section {
+  position: relative;
+  padding: 15% 0 10%;
+  max-width: 640px;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  font-weight: 500;
+}
+
+h2 {
+  font-weight: 400;
+}
+
+.sample-section-wrap {
+  position: relative;
+  background-color: white;
+}
+
+.sample-section {
+  position: relative;
+  max-width: 640px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 40px;
+}
+
 
 // News Updates Css
 .testimonial {
@@ -906,3 +1048,4 @@ $font-family: "Montserrat", sans-serif;
     color: #14213d; /* Change color on hover */
   }
 }
+

@@ -1,12 +1,16 @@
+import { useTranslations } from "next-intl"
+import { title } from "process";
+
 /* eslint-disable @next/next/no-img-element */
 // components/WhyUs.tsx
 const WhyUs = () => {
+  const t = useTranslations('WhyChooseUs')
   return (
     <div id="why-us">
       <div className="container">
         <div className="section">
-          <h3 className="section__title">Why Choose Us?</h3>
-          <p className="section__subtitle">We offer exceptional services and personalized support, guiding you every step of the way.</p>
+          <h3 className="section__title">{t('title')}</h3>
+          <p className="section__subtitle">{t('title-paragraph') }</p>
 
           <div className="row">
             <div className="col-sm-12 col-lg-7 order-md-1 order-lg-0">
@@ -17,8 +21,8 @@ const WhyUs = () => {
                       <i className="fa-solid fa-check"></i>
                     </div>
                     <div className="ms-3">
-                      <h5>Job Placement Expertise</h5>
-                      <p>We specialize in placing candidates in suitable roles, ensuring a smooth transition to employment.</p>
+                      <h5>{t('sub-heading1')}</h5>
+                      <p>{t('sub-paragraph1')}</p>
                     </div>
                   </div>
                 </div>
@@ -29,8 +33,8 @@ const WhyUs = () => {
                       <i className="fa-solid fa-check"></i>
                     </div>
                     <div className="ms-3">
-                      <h5>Personalized Career Counseling</h5>
-                      <p>Get one-on-one expert career advice tailored to your professional goals and aspirations.</p>
+                      <h5>{t('sub-heading2')}</h5>
+                      <p>{t('sub-paragraph2')}</p>
                     </div>
                   </div>
                 </div>
@@ -41,8 +45,8 @@ const WhyUs = () => {
                       <i className="fa-solid fa-check"></i>
                     </div>
                     <div className="ms-3">
-                      <h5>Comprehensive SSW Visa Support</h5>
-                      <p>Our team assists you throughout the SSW visa process, from documentation to final placement.</p>
+                      <h5>{t('sub-heading3')}</h5>
+                      <p>{t('sub-paragraph3')}</p>
                     </div>
                   </div>
                 </div>
@@ -53,8 +57,8 @@ const WhyUs = () => {
                       <i className="fa-solid fa-check"></i>
                     </div>
                     <div className="ms-3">
-                      <h5>Family Assistance</h5>
-                      <p>We provide ongoing support for your family during the transition, ensuring peace of mind.</p>
+                      <h5>{t('sub-heading4')}</h5>
+                      <p>{t('sub-paragraph4')}</p>
                     </div>
                   </div>
                 </div>

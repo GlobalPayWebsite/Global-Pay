@@ -47,5 +47,66 @@
     "paragraph7": "採用および入社プロセスを簡素化する完全な採用サービス。",
     "paragraph8": "海外に移住するSSW保有者の家族を総合的にサポートします。",
     "read-more":"続きを読む"
+  },
+  "WhyChooseUs": {
+    "title": "なぜ当社を選ぶのか？",
+    "title-paragraph":"なぜ当社を選ぶのか？当社は卓越したサービスと個別のサポートを提供し、皆さんをすべてのステップでサポートします。",
+    "sub-heading1": "就職支援",
+    "sub-paragraph1": "当社は卓越したサービスと個別のサポートを提供し、皆さんをすべてのステップでサポートします。",
+    "sub-heading2": "パーソナライズされたキャリアカウンセリング",
+    "sub-paragraph2": "当社は候補者へ適切な就職機会を紹介することに特化しており、スムーズな就職への移行を確実にします。",
+    "sub-heading3": "包括的なSSWビザサポート",
+    "sub-paragraph3": "皆さんのプロフェッショナルな目標や願望に合わせた専門的な個別キャリアアドバイスを受けることができます。",
+    "sub-heading4": "家族支援",
+    "sub-paragraph4": "移行期間中、当社は皆さんの家族を継続的にサポートし、安心を提供します。"
+  },
+  "CompanyProgress": {
+    "title": "会社の進捗",
+    "subtitle": "当社は卓越したサービスを提供し、クライアントが目標を達成することを支援することに専念しています",
+    "satisfiedClients": "満足したクライアント",
+    "projectsCompleted": "完了したプロジェクト",
+    "employees": "従業員数",
+    "yearsInBusiness": "事業年数"
+  },
+  "MeetOurTeam": {
+    "title": "私たちのチームを紹介します",
+    "subtitle": "当社の成功を支え、卓越した結果を提供し、お客様の満足を保証することに専念している才能ある専門家をご紹介します。",
+    "name1": "ジョン ドゥ",
+    "position1": "主任採用担当者",
+    "name2": "ジョン ドゥ",
+    "position2": "主任採用担当者",
+    "name3": "ジョン ドゥ",
+    "position3": "主任採用担当者",
+    "name4": "ジョン ドゥ",
+    "position4": "主任採用担当者主任採用担当者"
+  },
+  "company": {
+    "name": "グローバルペイ",
+    "address": "東京都新宿区百人町",
+    "sub-address":"1丁目20-17, 169-0073",
+    "phone": "03-6687-7736",
+    "email": "info@globalpay.co.jp"
+  },
+  "links": {
+    "useful_links": "便利なリンク",
+    "home": "ホーム",
+    "about_us": "私たちについて",
+    "recruitment_service": "採用サービス",
+    "other_service": "その他のサービス",
+    "contact_us": "お問い合わせ",
+    "our_services": "私たちのサービス",
+    "recruitment": "採用",
+    "ssw": "特定技能",
+    "real_estate_consultant": "不動産コンサルタント",
+    "educational_consultant": "教育コンサルタント",
+    "travel_consultant": "旅行コンサルタント",
+    "follow_us": "フォローする :"
+  },
+  "legals": {
+    "legals":"法務",
+    "privacy_policy": "プライバシーポリシー",
+    "disclaimer": "免責事項",
+    "use_of_site": "当サイトのご利用"
   }
+
 }

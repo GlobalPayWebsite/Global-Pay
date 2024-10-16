@@ -1,8 +1,10 @@
 "use client";
 
 import { useEffect, useState } from 'react';
+import { useTranslations } from 'next-intl'
 
 const Counter = () => {
+    const t = useTranslations("CompanyProgress")
     const [aValue, setAValue] = useState(0);
     const [bValue, setBValue] = useState(0);
     const [cValue, setCValue] = useState(0);
@@ -72,34 +74,34 @@ const Counter = () => {
 
     return (
         <>
-            <div id="about-us">
+            <div id="company-progress">
                 <div className="container">
                     <div className="section">
-                        <h3 className="section__title">Company progress</h3>
-                        <p className="section__subtitle">Our company is dedicated to delivering excellent service, helping clients achieve their goals with tailored solutions. With a focus on quality and client satisfaction, we’re here to support you every step of the way.</p>
+                        <h3 className="section__title">{t('title')}</h3>
+                        <p className="section__subtitle">{t('subtitle')}</p>
                         <div className="flex-container">
                             <div className="wrapper">
                                 <div className="flex-box">
                                     <div className="counter-icon"><i className="fas fa-users stat-icon fa-1x"></i></div>
                                     <p id="a" className="alignnumber">{aValue}</p>
-                                    <p className="stat-description" style={{ fontSize: "18px", margin: "10px 0 0", textAlign: "center" }}>Satisfied Clients</p>
+                                    <p className="stat-description" style={{ fontSize: "18px", margin: "10px 0 0", textAlign: "center" }}>{t("satisfiedClients")}</p>
                                 </div>
                                 <div className="flex-box">
                                     <div className="counter-icon"><i className="fas fa-tasks stat-icon fa-1x"></i></div>
                                     <p id="b" className="alignnumber">{bValue}</p>
-                                    <p className="stat-description" style={{ fontSize: "18px", margin: "10px 0 0", textAlign: "center" }}>Projects Completed</p>
+                                    <p className="stat-description" style={{ fontSize: "18px", margin: "10px 0 0", textAlign: "center" }}>{t("projectsCompleted")}</p>
 
                                 </div>
                                 <div className="flex-box">
                                     <div className="counter-icon a"><i className="fas fa-briefcase stat-icon fa-1x"></i></div>
                                     <p id="c" className="alignnumber">{cValue}</p>
-                                    <p className="stat-description" style={{ fontSize: "18px", margin: "10px 0 0", textAlign: "center" }}>Employees</p>
+                                    <p className="stat-description" style={{ fontSize: "18px", margin: "10px 0 0", textAlign: "center" }}>{t("employees")}</p>
 
                                 </div>
                                 <div className="flex-box">
                                     <div className="counter-icon a"><i className="fas fa-calendar-alt stat-icon fa-1x"></i></div>
                                     <p id="d" className="alignnumber">{dValue}</p>
-                                    <p className="stat-description" style={{ fontSize: "18px", margin: "10px 0 0", textAlign: "center" }}>Years in Business</p>
+                                    <p className="stat-description" style={{ fontSize: "18px", margin: "10px 0 0", textAlign: "center" }}>{t("yearsInBusiness")}</p>
 
                                 </div>
                             </div>

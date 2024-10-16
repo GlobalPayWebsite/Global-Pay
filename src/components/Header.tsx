@@ -15,7 +15,7 @@ const Header = () => {
       : pathname;
     const normalizedPath = path.endsWith('/') ? path.slice(0, -1) : path;
 
-    console.log(normalizedPathname, normalizedPath);
+    // console.log(normalizedPathname, normalizedPath);
     return normalizedPathname === normalizedPath;
   };
 

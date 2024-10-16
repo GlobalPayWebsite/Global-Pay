@@ -1,0 +1,49 @@
+body {
+  line-height: 1.6;
+}
+
+.blog-container {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  a,
+  ul,
+  ol {
+    opacity: 0.9;
+  }
+
+  .title {
+    font-size: 3rem;
+  }
+}
+
+h1,
+h2,
+h3 {
+  margin-top: 1.5rem;
+  font-weight: bold;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  color: blue;
+  text-decoration: underline;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+code {
+  background-color: #f0f0f0;
+  padding: 2px 4px;
+  border-radius: 4px;
+}

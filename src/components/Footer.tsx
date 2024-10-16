@@ -1,8 +1,12 @@
 import { Link } from '@/i18n/routing';
 import { right } from '@popperjs/core';
+import { useTranslations } from "next-intl";
 
 /* eslint-disable @next/next/no-img-element */
 const Footer = () => {
+  const ct = useTranslations("company")
+  const lt = useTranslations("links")
+  const pt = useTranslations("legals")
   return (
     <footer id="footer">
       <div className="container">
@@ -23,86 +27,86 @@ const Footer = () => {
                   fontWeight: 'bold',
                 }}
               >
-                Global Pay
+                {ct("name")}
               </span>
             </Link>
             <em className="d-block pb-2">
-              1-chōme-20-17 Hyakuninchō, <br />
-              Shinjuku City, Tokyo 169-0073
+              {ct("address")} <br />
+              {ct("sub-address")} 
             </em>
 
             <p>
               <strong>
                 <i className="text-primary fa-solid fa-phone pe-1" />{' '}
               </strong>{' '}
-              03-6687-7736
+              {ct("phone")} 
               <br />
               <strong>
                 <i className="text-primary fa-solid fa-envelope pe-1" />{' '}
               </strong>
-              info@globalpay.co.jp
+              {ct("email")} 
               <br />
             </p>
           </div>
 
           <div className="col-lg-3 pb-2 pb-lg-0 footer__useful-links">
-            <h5 className="fw-semibold">Useful Links</h5>
+            <h5 className="fw-semibold">{lt("useful_links")}</h5>
             <ul>
               <li>
-                <Link href="/">Home</Link>
+                <Link href="/">{lt("home")}</Link>
               </li>
               <li>
-                <Link href="/about-us">About us</Link>
+                <Link href="/about-us">{lt("about_us")}</Link>
               </li>
               <li>
-                <Link href="/services/recruitment">Recruitment Service</Link>
+                <Link href="/services/recruitment">{lt("recruitment_service")}</Link>
               </li>
               <li>
-                <Link href="/services/others">Other Service</Link>
+                <Link href="/services/others">{lt("other_service")}</Link>
               </li>
               <li>
-                <Link href="/contact">Contact Us</Link>
+                <Link href="/contact">{lt("contact_us")}</Link>
               </li>
             </ul>
           </div>
 
           <div className="col-lg-3 footer__useful-links  pb-2 pb-lg-0 ">
-            <h5 className="fw-semibold">Our Services</h5>
+            <h5 className="fw-semibold">{lt("our_services")}</h5>
             <ul>
               <li>
-                <Link href="/services/recruitment">Recruitment</Link>
+                <Link href="/services/recruitment">{lt("recruitment")}</Link>
               </li>
               <li>
-                <Link href="/services/recruitment">SSW</Link>
+                <Link href="/services/recruitment">{lt("ssw")}</Link>
               </li>
               <li>
-                <Link href="/services/others">Real Estate Consultant</Link>
+                <Link href="/services/others">{lt("real_estate_consultant")}</Link>
               </li>
               <li>
-                <Link href="/services/others">Educational Consultant</Link>
+                <Link href="/services/others">{lt("educational_consultant")}</Link>
               </li>
               <li>
-                <Link href="/services/others">Travel Consultant</Link>
+                <Link href="/services/others">{lt("travel_consultant")}</Link>
               </li>
             </ul>
           </div>
 
           <div className="col-lg-3 footer__useful-links  pb-4 pb-lg-0 ">
-            <h5 className="fw-semibold">Legals</h5>
+            <h5 className="fw-semibold">{pt("legals")}</h5>
             <ul>
               <li>
-                <Link href="/blog/privacy-policy">Privacy Policy</Link>
+                <Link href="/blog/privacy-policy">{pt("privacy_policy")}</Link>
               </li>
               <li>
-                <Link href="/blog/disclaimer">Disclaimer</Link>
+                <Link href="/blog/disclaimer">{pt("disclaimer")}</Link>
               </li>
               <li>
-                <Link href={"/blog/use-of this site"}>Use of this site</Link>
+                <Link href={"/blog/use-of this site"}>{pt("use_of_site")}</Link>
               </li>
             </ul>
 
             <div id='follow-us'>
-              FOLLOW US :
+              {lt("follow_us")}
               <Link
                 style={{marginLeft:"15px"}}
                 className="social-link"

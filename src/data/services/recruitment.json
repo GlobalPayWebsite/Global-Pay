@@ -13,21 +13,21 @@
           "description": "We specialize in helping individuals residing in Japan find suitable job opportunities. Our team works closely with employers to match candidates with positions that align with their skills and career goals."
         },
         {
-          "slugX": "support-for-nepali-graduates",
+          "slug": "support-for-nepali-graduates",
           "imgSrc": "/resource/cover.jpg",
           "iconClass": "fa-solid fa-graduation-cap",
           "title": "Support for Nepali Graduates",
           "description": "We are dedicated to assisting Nepali individuals holding a bachelor’s degree who aspire to work in Japan."
         },
         {
-          "slugX": "personalized-career-counseling",
+          "slug": "personalized-career-counseling",
           "imgSrc": "/resource/cover.jpg",
           "iconClass": "fa-solid fa-user-tie",
           "title": "Personalized Career Counseling",
           "description": "Our experienced counselors offer personalized career advice and support, helping candidates understand the job market, refine their resumes, and prepare for interviews."
         },
         {
-          "slugX": "employer-partnerships",
+          "slug": "employer-partnerships",
           "imgSrc": "/resource/cover.jpg",
           "iconClass": "fa-regular fa-handshake",
           "title": "Employer Partnerships",
@@ -41,28 +41,28 @@
       "subtitle": "Comprehensive support for SSW visa applicants and employers in Japan.",
       "services": [
         {
-          "slugX": "comprehensive-support-for-ssw",
+          "slug": "comprehensive-support-for-ssw",
           "imgSrc": "/resource/cover.jpg",
           "iconClass": "fa-solid fa-passport",
           "title": "Comprehensive Support for SSW (i) and SSW (ii)",
           "description": "We assist foreign nationals in obtaining both SSW (i) and SSW (ii) visas, ensuring they meet all requirements and pass necessary exams."
         },
         {
-          "slugX": "industry-specific-expertise",
+          "slug": "industry-specific-expertise",
           "imgSrc": "/resource/cover.jpg",
           "iconClass": "fa-solid fa-industry",
           "title": "Industry-Specific Expertise",
           "description": "Our company specializes in placing workers in industries designated for SSW (i) and advanced sectors for SSW (ii)."
         },
         {
-          "slugX": "end-to-end-recruitment-services",
+          "slug": "end-to-end-recruitment-services",
           "imgSrc": "/resource/cover.jpg",
           "iconClass": "fa-solid fa-clipboard-check",
           "title": "End-to-End Recruitment Services",
           "description": "From application to placement, we provide full support, including language training and cultural orientation."
         },
         {
-          "slugX": "family-support-for-ssw-ii-holders",
+          "slug": "family-support-for-ssw-ii-holders",
           "imgSrc": "/resource/cover.jpg",
           "iconClass": "fa-solid fa-home",
           "title": "Family Support for SSW (ii) Holders",

@@ -34,15 +34,15 @@ const ServiceCard: FC<ServiceCardProps> = ({
           <i className={iconClass}></i>
         </div>
 
-        <div className="service-body">
-          <h6 className="fw-semibold text-primary">{title}</h6>
-          <p className="text-secondary">{description}</p>
-          {slug && (
-            <Link href={`/blog/${slug}`} className="service__link">
-              Learn more <i className="fa-solid fa-arrow-right-long"></i>
-            </Link>
-          )}
-        </div>
+        {slug && (
+          <Link href={`/recruitment/${slug}`} className="service__link">
+            <div className="service-body">
+              <h6 className="fw-semibold text-primary">{title}</h6>
+              <p className="text-secondary">{description}</p>
+              {/* Learn more <i className="fa-solid fa-arrow-right-long"></i> */}
+            </div>
+          </Link>
+        )}
       </div>
     </div>
   );

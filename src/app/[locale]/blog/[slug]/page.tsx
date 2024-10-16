@@ -42,7 +42,7 @@ const PostPage = async ({ params }: { params: { slug: string } }) => {
         <div className="row justify-content-start">
           <div className="col-lg-8">
             <h1 className="title">{title}</h1>
-            <div dangerouslySetInnerHTML={{ __html: marked(body) }} />
+            <div dangerouslySetInnerHTML={{ __html: marked(body)}} />
           </div>
         </div>
       </div>

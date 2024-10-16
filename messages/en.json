@@ -47,5 +47,68 @@
         "paragraph7": "Full recruitment services to simplify the hiring and onboarding process.",
         "paragraph8": "Comprehensive support for families of SSW holders moving abroad.",
         "read-more":"Read More"
-      }
+      },
+      "WhyChooseUs":{
+        "title":"Why Choose Us?",
+        "title-paragraph": "We offer exceptional services and personalized support, guiding you every step of the way.",
+        "sub-heading1": "Job Placement Expertise",
+        "sub-paragraph1": "We offer exceptional services and personalized support, guiding you every step of the way.",
+        "sub-heading2": "Personalized Career Counseling",
+        "sub-paragraph2": "We specialize in placing candidates in suitable roles, ensuring a smooth transition to employment.",
+        "sub-heading3": "Comprehensive SSW Visa Support",
+        "sub-paragraph3": "Our team assists you throughout the SSW visa process, from documentation to final placement.",
+        "sub-heading4": "Family Assistance",
+        "sub-paragraph4": "We provide ongoing support for your family during the transition, ensuring peace of mind."
+      },
+      "CompanyProgress":{
+        "title": "Company Progress",
+        "subtitle": "Our company is dedicated to delivering excellent service, helping clients achieve their goals with tailored solutions. With a focus on quality and client satisfaction, we’re here to support you every step of the way.",
+        "satisfiedClients": "Satisfied Clients",
+        "projectsCompleted": "Projects Completed",
+        "employees": "Employees",
+        "yearsInBusiness": "Years in Business"
+      },
+      "MeetOurTeam":{
+        "title":"Meet Our team",
+        "subtitle":"Get to know the talented professionals behind our success, dedicated to delivering exceptional results and ensuring your satisfaction.",
+        "name1": "John Doe",
+        "position1": "Lead Recruiter",
+        "name2": "John Doe",
+        "position2": "Lead Recruiter",
+        "name3": "John Doe",
+        "position3": "Lead Recruiter",
+        "name4": "John Doe",
+        "position4": "Lead Recruiter"
+      },
+
+    "company": {
+      "name": "Global Pay",
+      "address": "1-chōme-20-17 Hyakuninchō",
+      "sub-address": "Shinjuku City, Tokyo 169-0073",
+      "phone": "03-6687-7736",
+      "email": "info@globalpay.co.jp"
+       },
+    "links": {
+      "useful_links": "Useful Links",
+      "home": "Home",
+      "about_us": "About Us",
+      "recruitment_service": "Recruitment Service",
+      "other_service": "Other Service",
+      "contact_us": "Contact Us",
+      "our_services": "Our Services",
+      "recruitment": "Recruitment",
+      "ssw": "SSW",
+      "real_estate_consultant": "Real Estate Consultant",
+      "educational_consultant": "Educational Consultant",
+      "travel_consultant": "Travel Consultant",
+      "follow_us": "FOLLOW US :"
+    },
+    "legals": {
+      "legals":"legals",
+      "privacy_policy": "Privacy Policy",
+      "disclaimer": "Disclaimer",
+      "use_of_site": "Use of this site"
+    }
+
 }
+
