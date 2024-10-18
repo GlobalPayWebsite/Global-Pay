@@ -24,7 +24,7 @@ const Contact = () => {
                 <i className="fa-solid fa-address-book"></i>
               </div>
               <h5 className='fw-semibold text-primary'>Address</h5>
-              <h6>1-chōme-20-17 Hyakuninchō, Shinjuku City, Tokyo 169-0073</h6>
+              <h6>1-chome-20-17 Hyakunincho, Shinjuku City, Tokyo 169-0073</h6>
             </div>
 
             <div className="col-xl-4 contact-item">

@@ -26,7 +26,7 @@ const Home: FC = () => {
   return (
     <>
       <Head>
-        <title>Our Services - Global Pay</title>
+        <title>Our Services - Global Pay Co., Ltd.</title>
         <meta
           name="description"
           content="Discover our wide range of services including real estate consulting, educational consulting, and travel consulting."

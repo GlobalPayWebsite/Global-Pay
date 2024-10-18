@@ -29,12 +29,13 @@ const ServiceCard: FC<ServiceCardProps> = ({
             height={100}
           />
         </div>
+
         <div className="service-icon">
           <i className={iconClass}></i>
         </div>
 
         {slug && (
-          <Link href={`/blog/${slug}`} className="service__link">
+          <Link href={`/recruitment/${slug}`} className="service__link">
             <div className="service-body">
               <h6 className="fw-semibold text-primary">{title}</h6>
               <p className="text-secondary">{description}</p>

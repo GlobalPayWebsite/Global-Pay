@@ -9,7 +9,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <title>Global Pay</title>
+        <title>Global Pay Co., Ltd.</title>
         <link rel="shortcut icon" href="/assets/logo.png" type="image/x-icon" />
       </head>
       <body className={`antialiased`}>

@@ -66,7 +66,7 @@ const WhyUs = () => {
             </div>
 
             <div className="col-sm-12 col-lg-5 splash order-md-0 order-lg-1">
-              <img className="img-thumbnail" src="/resource/cover.jpg" alt="Why Us" width="100%" />
+              <img className="img-thumbnail" src="/assets/whyus.jpg" alt="Why Us" width="100%" />
             </div>
           </div>
         </div>

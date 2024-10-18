@@ -12,24 +12,36 @@
   "Caraousel": {
     "heading": "Your Global",
     "sub-heading":"Partner",
-    "paragraph": "At Global Pay, we offer seamless solutions across recruitment, real estate, and educational consulting. Let us help you navigate your journey to success with tailored services for your needs.",
+    "paragraph": "At Global Pay Co., Ltd. we offer seamless solutions across recruitment, real estate, and educational consulting. Let us help you navigate your journey to success with tailored services for your needs.",
     "sub-tag": "Explore Our Services"
+  },
+  "Caraousel1": {
+    "heading": "Real State",
+    "sub-heading": "Business",
+    "paragraph": "Find your perfect home in Japan with our expert real estate consultancy. From cozy rentals to spacious family homes, we provide personalized, multilingual support to meet your needs.",
+    "sub-tag": "Learn More"
+  },
+  "Caraousel2": {
+    "heading": "Abroad Education",
+    "sub-heading": "Guidance",
+    "paragraph": "We assist students in pursuing their academic dreams abroad, providing support from university selection to visa processing. Your future starts here.",
+    "sub-tag": "Get started"
   },
     "AboutUs": {
       "about": "About Us",
-      "paragraph": "We provide expert consulting services in Recruitment, SSW visas, Real Estate, Education, and Travel, ensuring personalized support and guidance for all our clients.",
+      "paragraph": "We offer expert consulting services in recruitment, SSW visas, real estate, education, and travel, providing personalized support and guidance tailored to each client's needs.",
       "heading1": "Recruitment",
       "heading2": "SSW",
       "heading3": "Real State",
       "heading4": "Education",
-      "paragraph1": "Help individual secure jobs under the ssw program and beyond.",
-      "paragraph2": "Assisting with the SSW visa process to work in Japan.",
-      "paragraph3": "Providing rental assistance with multilingual support in Japan.",
-      "paragraph4": "Guiding students for abroad study to the USA, Australia, and Canada."
+      "paragraph1": "Connect qualified candidates with top employers, providing tailored job placement, resume preparation, and interview support to ensure the right fit for both candidates and businesses.",
+      "paragraph2": "SSW (Specified Skilled Worker) visa services assist skilled workers in obtaining the necessary visas to work in Japan, offering guidance on application procedures and ensuring compliance with immigration requirements.",
+      "paragraph3": "Help clients navigate the Japanese property market, offering expert guidance on buying, selling, or renting properties, with personalized support for both residential and commercial needs.",
+      "paragraph4": "Offers personalized guidance for students seeking to study in Japan, helping with school selection, application processes, and visa support to ensure a smooth transition into academic life."
     },
       "Services": {
         "heading": "Our Services",
-        "subtitle": "We provide a range of expert services tailored to support your career and life abroad, including job placements, SSW visaassistance, and much more.",
+        "subtitle": "We offer a range of expert services designed to support your career and life abroad, including job placements, SSW visa assistance, and personalized guidance for a seamless experience.",
         "heading1":"Job Placement Assistance",
         "heading2":"Support for Nepali Graduates",
         "heading3":"Personalized Career Counseling",
@@ -82,8 +94,8 @@
       },
 
     "company": {
-      "name": "Global Pay",
-      "address": "1-chōme-20-17 Hyakuninchō",
+      "name": "Global Pay Co., Ltd.",
+      "address": "1-chome-20-17 Hyakunincho",
       "sub-address": "Shinjuku City, Tokyo 169-0073",
       "phone": "03-6687-7736",
       "email": "info@globalpay.co.jp"

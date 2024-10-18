@@ -48,7 +48,7 @@ const Header = () => {
                 fontWeight: 'bold',
               }}
             >
-              Global Pay <strong style={{ fontSize: "12px", fontWeight: 500 }}>Co. ltd.</strong>
+              Global Pay <strong style={{ fontSize: "12px", fontWeight: 500 }}>Co., Ltd.</strong>
             </span>
           </Link>
 
@@ -129,6 +129,10 @@ const Header = () => {
                       <Link className="dropdown-item" href="/services/others">
                         Other Services
                       </Link>
+                    </li><li>
+                      <Link className="dropdown-item" href="/services/immigration">
+                        Immigration Laywer
+                      </Link>
                     </li>
                   </ul>
                 </li>
@@ -156,18 +160,15 @@ const Header = () => {
                   >
                     {/* Display one image for 'en' and another for 'jp' */}
                     {cur === "en" ? (
-                      <img src="/assets/en.png" alt="English" width="20" />
+                      <img src="/assets/en.png" alt="English" width="15"/>
                     ) : cur === "jp" ? (
                       <img src="/assets/jp.png" alt="Japanese" width="20" />
                     ) : null}
                     {cur === "en" ? (
-                      <span>English</span>
+                      <span style={{padding: "7px"}}>English</span>
                     ) : cur === "jp" ? (
-                        <span>日本語 (Japanese)</span>
+                        <span style={{ padding: "7px" }}>日本語 (Japanese)</span>
                     ) : null}
-
-                    <span style={{ marginRight: "10px" }}>
-                    </span>
                   </span>
                 ))}
               </div>

@@ -11,7 +11,7 @@ import './styles.scss';
 const PostPage = async ({ params }: { params: { slug: string } }) => {
     const filePath = path.join(
         process.cwd(),
-        'src/data/posts',
+        'src/data/recruitment-posts',
         `${params.slug}.md`
     );
 
@@ -42,7 +42,7 @@ const PostPage = async ({ params }: { params: { slug: string } }) => {
                 <div className="row justify-content-start">
                     <div className="col-lg-8">
                         <h1 className="title">{title}</h1>
-                        <div dangerouslySetInnerHTML={{ __html: marked(body) }} />
+                        <div dangerouslySetInnerHTML={{ __html: marked(body)}} />
                     </div>
                 </div>
             </div>

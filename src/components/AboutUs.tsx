@@ -14,27 +14,28 @@ const AboutUs = () => {
             <p className="section__subtitle">{t("paragraph")}</p>
 
             <div className="row align-items-center">
-              <div className="col-md-12 col-xl-6 splash">
+              <div className="col-md-6 col-xl-6 splash" >
                 <img
-                  src="/assets/cover.jpg"
+                  src="/assets/about.png"
                   alt="Cover"
+                  height="auto"
                   width="100%"
                   className="img-thumbnail"
                 />
               </div>
-              <div className="col-md-12 col-xl-6 ">
+              <div className="col-md-6 col-xl-6 ">
                 <div className="row about__container">
                   <div className="col-6">
                     <div className="about__item">
                       <div className="icon">
                         <img
-                          src="/resource/icons/human-resources-svgrepo-com.svg"
+                          src="/resource/icons/recruitment1.png"
                           alt="Recruitment"
                           width="32px"
                           height="32px"
                         />
                       </div>
-                      <h5 className="fw-semibold text-primary">{t("heading1")}</h5>
+                      <h5 className="fw-semibold text-primary" >{t("heading1")}</h5>
                         <p>{t("paragraph1")}</p>
                     </div>
                   </div>
@@ -43,7 +44,7 @@ const AboutUs = () => {
                     <div className="about__item">
                       <div className="icon">
                         <img
-                          src="/resource/icons/human-resources-svgrepo-com.svg"
+                          src="/resource/icons/approved.png"
                           alt="SSW"
                           width="32px"
                           height="32px"
@@ -51,7 +52,7 @@ const AboutUs = () => {
                       </div>
                       <h5 className="fw-semibold text-primary">{t("heading2")}</h5>
                       <p>
-                        {t("paragraph1")}
+                        {t("paragraph2")}
                       </p>
                     </div>
                   </div>
@@ -60,7 +61,7 @@ const AboutUs = () => {
                     <div className="about__item">
                       <div className="icon">
                         <img
-                          src="/resource/icons/human-resources-svgrepo-com.svg"
+                          src="/resource/icons/realstate.png"
                           alt="Real Estate"
                           width="32px"
                           height="32px"
@@ -75,14 +76,14 @@ const AboutUs = () => {
                     <div className="about__item">
                       <div className="icon">
                         <img
-                          src="/resource/icons/human-resources-svgrepo-com.svg"
+                          src="/resource/icons/image.png"
                           alt="Education"
                           width="32px"
                           height="32px"
                         />
                       </div>
                       <h5 className="fw-semibold text-primary">{t("heading4")}</h5>
-                      <p>{t("paragraph3")}</p>
+                      <p>{t("paragraph4")}</p>
                     </div>
                   </div>
                 </div>

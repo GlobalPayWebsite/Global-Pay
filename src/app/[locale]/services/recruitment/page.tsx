@@ -2,7 +2,7 @@ import { FC } from 'react';
 import Footer from '@/components/Footer';
 import Header from '@/components/Header';
 import Spacing from '@/components/Spacing';
-import ServiceCard from '@/components/ServiceCard';
+import RecruitmentServiceCard from '@/components/RecruitmentServiceCard';
 import Head from 'next/head';
 import servicesData from '@/data/services/recruitment.json';
 import PageHeader from '@/components/PageHeader';
@@ -28,7 +28,7 @@ const Home: FC = () => {
   return (
     <>
       <Head>
-        <title>Our Services - Global Pay</title>
+        <title>Our Services - Global Pay Co., Ltd.</title>
         <meta
           name="description"
           content="Discover our wide range of services including recruitment and SSW support."
@@ -61,7 +61,7 @@ const Home: FC = () => {
               <div className="section__subtitle">{section.subtitle}</div>
               <div className="row">
                 {section.services.map((service, serviceIndex) => (
-                  <ServiceCard
+                  <RecruitmentServiceCard
                     key={serviceIndex}
                     imgSrc={service.imgSrc}
                     iconClass={service.iconClass}

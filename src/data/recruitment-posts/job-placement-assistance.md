@@ -1,12 +1,12 @@
 ---
-title: Here we provide the details about the new updates for the site.
+title: Job Placement Assistance in Japan
 ---
 
 As the demand for skilled workers continues to rise in Japan, particularly in sectors such as IT, engineering, and healthcare, job placement assistance has become an essential service for both foreigners and locals seeking employment opportunities.
 
 ## Overview of Job Placement Services
 
-Our job placement services provide comprehensive support to candidates looking to work for Global Pay Co., Ltd. and similar companies. Here’s what our services typically include:
+Our job placement services provide comprehensive support to candidates looking to work for Global Pay Co., Ltd.and similar companies. Here’s what our services typically include:
 
 ### 1. Assessment of Skills and Career Goals
 

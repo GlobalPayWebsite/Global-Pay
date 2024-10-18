@@ -5,6 +5,8 @@ import { useTranslations } from 'next-intl';
 /* eslint-disable @next/next/no-img-element */
 const Carousel = () => {
   const t = useTranslations('Caraousel');
+  const t1 = useTranslations('Caraousel1')
+  const t2 = useTranslations('Caraousel2')
 
   return (
     <div id="home" className="carousel slide">
@@ -34,9 +36,9 @@ const Carousel = () => {
         <div className="carousel-item active">
           <div className="img-container">
             <img
-              src="/assets/cover.jpg"
+              src="/assets/image.png"
               className="d-block w-100"
-              style={{ height: 420, objectFit: 'cover' }}
+              style={{ height: 420, objectFit: 'cover', }}
               alt="..."
             />
           </div>
@@ -58,7 +60,7 @@ const Carousel = () => {
         <div className="carousel-item">
           <div className="img-container">
             <img
-              src="/assets/cover.jpg"
+              src="/assets/realstate.png"
               className="d-block w-100"
               style={{ height: 420, objectFit: 'cover' }}
               alt="..."
@@ -66,14 +68,11 @@ const Carousel = () => {
           </div>
           <div className="carousel-caption d-md-block">
             <div className="container">
-              <h1>Real Estate Solutions</h1>
-              <p>
-                Find your perfect home in Japan with our expert real estate
-                consultancy. From cozy rentals to spacious family homes, we
-                provide personalized, multilingual support to meet your needs.
-              </p>
+              <h1>{t1('heading')}</h1>
+              <h1>{t1('sub-heading')}</h1>
+              <p>{t1("paragraph")}</p>
               <Link className="btn btn-primary m-auto" href="/real-estate">
-                Learn More
+                {t1("sub-tag")}
               </Link>
             </div>
           </div>
@@ -81,7 +80,7 @@ const Carousel = () => {
         <div className="carousel-item">
           <div className="img-container">
             <img
-              src="/assets/cover.jpg"
+              src="/assets/study-abrd.png"
               className="d-block w-100"
               style={{ height: 420, objectFit: 'cover' }}
               alt="..."
@@ -89,12 +88,9 @@ const Carousel = () => {
           </div>
           <div className="carousel-caption d-md-block">
             <div className="container">
-              <h1>Abroad Education Guidance</h1>
-              <p>
-                We assist students in pursuing their academic dreams abroad,
-                providing support from university selection to visa processing.
-                Your future starts here.
-              </p>
+              <h1>{t2("heading")}</h1>
+              <h1>{t2("sub-heading")}</h1>
+              <p>{t2("paragraph")}</p>
               <Link
                 className="btn btn-primary m-auto"
                 href="/education-consulting"

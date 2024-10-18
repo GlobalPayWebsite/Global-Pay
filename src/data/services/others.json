@@ -11,13 +11,13 @@
           "description": "We provide end-to-end support in finding the perfect rental apartment in Japan. Whether it is a cozy studio in Tokyo or a spacious family home in Osaka, our team is here to help every step of the way."
         },
         {
-          "slugX": "lease-negotiation-paperwork-assistance",
+          "slug": "lease-negotiation-paperwork-assistance",
           "iconClass": "fa-solid fa-file-contract",
           "serviceTitle": "Lease Negotiation and Paperwork Assistance",
           "description": "We handle the paperwork, ensuring all documents are completed correctly, and assist with lease negotiations to secure the best deal for our clients."
         },
         {
-          "slugX": "move-in-assistance",
+          "slug": "move-in-assistance",
           "iconClass": "fa-solid fa-key",
           "serviceTitle": "Move-In Assistance",
           "description": "Our services don’t stop when the lease is signed. We also provide move-in support, helping you settle into your new home with ease, from arranging utilities to offering guidance on the local area."
@@ -29,7 +29,7 @@
       "subtitle": "Assist students for studying abroad from Japan to the USA, Australia, & Canada.",
       "services": [
         {
-          "slugX": "personalized-guidance-support",
+          "slug": "personalized-guidance-support",
           "iconClass": "fa-regular fa-envelope",
           "serviceTitle": "Personalized Guidance and Support",
           "description": "We support each student based on their academic goals, career aspirations, and personal preferences. Emphasize comprehensive services, from selecting the right universities and courses to assisting with application processes and visa requirements."

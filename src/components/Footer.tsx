@@ -15,7 +15,7 @@ const Footer = () => {
             <Link className="navbar-brand mb-2 d-inline-block" href="/#home">
               <img
                 src="/assets/logo.png"
-                alt="Global Pay"
+                alt="Global Pay Co., Ltd."
                 width="40"
                 height="40"
               />
@@ -67,6 +67,9 @@ const Footer = () => {
               <li>
                 <Link href="/contact">{lt("contact_us")}</Link>
               </li>
+              <li>
+                <Link href="/companyprofile">Company Profile</Link>
+              </li>
             </ul>
           </div>
 
@@ -101,23 +104,25 @@ const Footer = () => {
                 <Link href="/blog/disclaimer">{pt("disclaimer")}</Link>
               </li>
               <li>
-                <Link href={"/blog/use-of this site"}>{pt("use_of_site")}</Link>
+                <Link href={"/blog/use-of-the-site"}>{pt("use_of_site")}</Link>
               </li>
+
             </ul>
 
             <div id='follow-us'>
               {lt("follow_us")}
               <Link
-                style={{marginLeft:"15px"}}
+                style={{marginLeft:"15px", background:"#1877F2"}}
                 className="social-link"
                 href="https://www.facebook.com"
                 target="_blank"
               >
                 <i className="fa-brands fa-facebook"></i>
+              
               </Link>
 
               <Link
-                className="social-link"
+                className="social-link insta"
                 href="https://www.facebook.com"
                 target="_blank"
               >
@@ -138,7 +143,7 @@ const Footer = () => {
 
       <div className="container">
         <div className="footer-content">
-          <p>&copy; 2024 Global Pay. All Rights Reserved.</p>
+          <p>&copy; 2021 Global Pay Co., Ltd.. All Rights Reserved.</p>
         </div>
       </div>
     </footer>
