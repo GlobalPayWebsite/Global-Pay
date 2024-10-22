@@ -18,7 +18,7 @@ const ServiceCard: FC<ServiceCardProps> = ({
   slug,
 }) => {
   return (
-    <div className="col-lg-4 col-md-6 col-sm-12">
+    <div className="col-lg-6 col-md-6 col-sm-12">
       <div className="service-card">
         <div className="service-img">
           <Image
@@ -29,7 +29,6 @@ const ServiceCard: FC<ServiceCardProps> = ({
             height={100}
           />
         </div>
-
         <div className="service-icon">
           <i className={iconClass}></i>
         </div>

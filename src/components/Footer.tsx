@@ -112,8 +112,8 @@ const Footer = () => {
             <div id='follow-us'>
               {lt("follow_us")}
               <Link
-                style={{marginLeft:"15px", background:"#1877F2"}}
-                className="social-link"
+                // style={{, }}
+                className="social-link-fb"
                 href="https://www.facebook.com"
                 target="_blank"
               >
@@ -122,19 +122,19 @@ const Footer = () => {
               </Link>
 
               <Link
-                className="social-link insta"
-                href="https://www.facebook.com"
+                className="social-link-insta"
+                href="https://www.instagram.com"
                 target="_blank"
               >
                 <i className="fa-brands fa-instagram"></i>
               </Link>
 
               <Link
-                className="social-link"
+                className="social-link-tw"
                 href="https://www.facebook.com"
                 target="_blank"
               >
-                <i className="fa-brands fa-twitter"></i>
+                <i style={{background:"black"}} className="fa-brands fa-x-twitter"></i>
               </Link>
             </div>
           </div>

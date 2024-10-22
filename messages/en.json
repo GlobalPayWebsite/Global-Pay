@@ -69,8 +69,8 @@
         "sub-paragraph2": "We specialize in placing candidates in suitable roles, ensuring a smooth transition to employment.",
         "sub-heading3": "Comprehensive SSW Visa Support",
         "sub-paragraph3": "Our team assists you throughout the SSW visa process, from documentation to final placement.",
-        "sub-heading4": "Family Assistance",
-        "sub-paragraph4": "We provide ongoing support for your family during the transition, ensuring peace of mind."
+        "sub-heading4": "Travel Consultant",
+        "sub-paragraph4": "We sell airline tickets from Japan to any country, offering competitive pricing and exclusive deals to ensure our clients get the best value for travel."
       },
       "CompanyProgress":{
         "title": "Company Progress",
@@ -100,6 +100,19 @@
       "phone": "03-6687-7736",
       "email": "info@globalpay.co.jp"
        },
+    "company-profile": {
+      "company_name": "GLOBAL PAY Co., Ltd.",
+      "headquarters": "1-chome 20-17 Hyakunincho, Shinjuku-ku, Tokyo",
+      "establishment_date": "2021-04-20",
+      "representative": "Neure Nabin",
+      "capital": "10 million yen",
+      "number_of_employees": 4,
+      "business_activity1": "Recruitment",
+      "business_activity2": "SSW",
+      "business_activity3": "Real Estate Consultant",
+      "business_activity4": "Educational Consultant",
+      "business_activity5": "Travel Consultant"
+    },
     "links": {
       "useful_links": "Useful Links",
       "home": "Home",

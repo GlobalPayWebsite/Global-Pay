@@ -8,7 +8,7 @@ import Spacing from '@/components/Spacing';
 import Team from '@/components/Team';
 import WhyUs from '@/components/WhyUs';
 import Counter from '@/components/Counter';
-
+import NewsUpdates from '@/components/NewsUpdates';
 export default function Home() {
   return (
     <>
@@ -21,7 +21,8 @@ export default function Home() {
         <WhyUs />
         <Counter />
         <Team />
-        <Blogs />
+        {/* <Blogs /> */}
+        {/* <NewsUpdates /> */}
       </main>
       <Footer />
     </>

@@ -6,7 +6,7 @@ import RecruitmentServiceCard from '@/components/RecruitmentServiceCard';
 import Head from 'next/head';
 import servicesData from '@/data/services/recruitment.json';
 import PageHeader from '@/components/PageHeader';
-
+import "./style.scss"
 interface Service {
   imgSrc: string;
   iconClass: string;

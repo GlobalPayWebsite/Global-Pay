@@ -9,7 +9,7 @@ export default function AboutUsPage() {
         <>
             <Header />
             <Spacing height="60px" />
-            <AboutUs />
+            <AboutUss />
             <Footer />
         </>
     );

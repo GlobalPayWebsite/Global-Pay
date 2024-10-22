@@ -30,7 +30,7 @@ const Team = () => {
 
                     <div>
                       <Link
-                        className="social-link"
+                        className="social-link-fb"
                         href="https://www.facebook.com"
                         target="_blank"
                       >
@@ -38,7 +38,7 @@ const Team = () => {
                       </Link>
 
                       <Link
-                        className="social-link"
+                        className="social-link-insta"
                         href="https://www.facebook.com"
                         target="_blank"
                       >
@@ -46,7 +46,7 @@ const Team = () => {
                       </Link>
 
                       <Link
-                        className="social-link"
+                        className="social-link-tw"
                         href="https://www.facebook.com"
                         target="_blank"
                       >

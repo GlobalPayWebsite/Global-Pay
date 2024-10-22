@@ -1,4 +1,3 @@
-import Contact from '@/components/Contact';
 import Footer from '@/components/Footer';
 import Header from '@/components/Header';
 import Spacing from '@/components/Spacing';
@@ -39,11 +38,6 @@ export default function Home() {
             </ul>
           </section>
         </main>
-        <footer className="footer">
-          <h2>Contact Us</h2>
-          <p>Email: info@globalpay.co.jp</p>
-          <p>Phone: +81 03-6687-7736</p>
-        </footer>
       </div>
       <Footer />
     </>

@@ -11,10 +11,10 @@ const Counter = () => {
     const [dValue, setDValue] = useState(0);
 
     // Set the final values
-    const targetAValue = 321;
-    const targetBValue = 340;
-    const targetCValue = 345;
-    const targetDValue = 500;
+    const targetAValue = 50;
+    const targetBValue = 10;
+    const targetCValue = 4;
+    const targetDValue = 3;
 
     useEffect(() => {
         let aCounter = 0;
