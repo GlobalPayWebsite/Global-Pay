@@ -1,11 +1,11 @@
-import Recruitment from "@/components/page/services/recruitment/Recruitment";
+import RealStateConsultant from "@/components/page/services/others/RealStateConsultant";
 import BreadCrumb from "@/components/page/shared/breadcrumb/BreadCrumb";
 
-export default function page() {
+export default function Page() {
     return (
         <div className="m-0 p-0 box-border">
             <BreadCrumb />
-            <Recruitment />
+            <RealStateConsultant />
         </div>
     );
 }

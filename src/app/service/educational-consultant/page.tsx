@@ -1,11 +1,11 @@
-import Recruitment from "@/components/page/services/recruitment/Recruitment";
+import EducationalConsultant from "@/components/page/services/others/EducationalConsultant";
 import BreadCrumb from "@/components/page/shared/breadcrumb/BreadCrumb";
 
-export default function page() {
+export default function Page() {
     return (
         <div className="m-0 p-0 box-border">
             <BreadCrumb />
-            <Recruitment />
+            <EducationalConsultant />
         </div>
     );
 }

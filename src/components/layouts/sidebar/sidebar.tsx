@@ -3,31 +3,21 @@ import React from 'react';
 import Image from 'next/image';
 import { LanguageButton } from '@/components/utility/language/LanguageButton';
 import SidebarNavItem from './SidebarNavItem';
+import { navLinks } from '../navbar/Navbar';
 
-interface NavLink {
-    name: string;
-    href: string;
-    className?: string;
-    dropdownLinks?: NavLink[];
-}
+// interface NavLink {
+//     name: string;
+//     href: string;
+//     className?: string;
+//     dropdownLinks?: NavLink[];
+// }
 
 interface SidebarProps {
     isSidebarOpen: boolean;
     setIsSidebarOpen: (value: boolean) => void;
 }
 
-const navLinks: NavLink[] = [
-    { name: 'Home', href: '/' },
-    { name: 'About Us', href: '/about-us' },
-    {
-        name: 'Services', href: '/service', dropdownLinks: [
-            { name: 'Recruitment', href: '/service/recruitment' },
-            { name: 'Other Services', href: '/service/others' },
-            { name: 'Immigration Lawyer', href: '/service/immigration' },
-        ]
-    },
-    { name: 'Contact', href: '/contact' }
-];
+
 
 const Sidebar: React.FC<SidebarProps> = ({ isSidebarOpen, setIsSidebarOpen }) => {
     

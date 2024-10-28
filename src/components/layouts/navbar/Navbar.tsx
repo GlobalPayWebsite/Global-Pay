@@ -25,12 +25,13 @@ interface NavLink {
 
 
 // Dynamic array of navigation links
-const navLinks: NavLink[] = [
+export const navLinks: NavLink[] = [
   { name: 'Home', href: '/' },
   { name: 'About Us', href: '/about-us' },
   {
     name: 'Services', href: '/service', dropdownLinks: [
       { name: 'Recruitment', href: '/service/recruitment' },
+      { name: 'SSW', href: '/service/ssw' },
       { name: 'Other Services', href: '/service/others' },
       { name: 'Immigration Lawyer', href: '/service/immigration' },
     ]

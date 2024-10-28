@@ -11,14 +11,14 @@ const usefulLinks = [
         name: 'About Us',
         href: '/about-us'
     },
-    {
-        name: 'Recruitment Service',
-        href: '/service/recruitment'
-    },
-    {
-        name: 'Other Services',
-        href: '/service/others'
-    },
+    // {
+    //     name: 'Recruitment Service',
+    //     href: '/service/recruitment'
+    // },
+    // {
+    //     name: 'Other Services',
+    //     href: '/service/others'
+    // },
     {
         name: 'Contact Us',
         href: '/contact'
@@ -36,19 +36,19 @@ const ourServices = [
     },
     {
         name: 'SSW',
-        href: '/service/others'
+        href: '/service/ssw'
     },
     {
         name: 'Real Estate Consultant',
-        href: '/service/others'
+        href: '/service/realstate-consultant'
     },
     {
         name: 'Educational Consultant',
-        href: '/service/others'
+        href: '/service/educational-consultant'
     },
     {
         name: 'Travel Consultant',
-        href: '/service/others'
+        href: '/service/travel-consultant'
     }
 ]
 
