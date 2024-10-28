@@ -39,7 +39,7 @@ const services = [
             <div className='flex-row items-center gap-2'>
                 <div className='items-center gap-1'>
                     <div>Monday - Friday</div>
-                    <div>9:00 am - 7:00 pm</div>
+                    <div>10:00 am - 7:00 pm</div>
                     <div>Saturday & Sunday (Closed)</div>
                 </div>
             </div>
