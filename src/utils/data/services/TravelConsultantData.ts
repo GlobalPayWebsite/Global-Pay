@@ -19,7 +19,8 @@ export const travelConsultantdataList: DetailType[] = [
     icon: null,
     extraImage: "",
     _createdAt: "2024-10-23T12:00:00.000Z", // Example timestamp
-  },
+    },
+  
   {
     _id: "2",
     title: "Customized Travel Packages",
