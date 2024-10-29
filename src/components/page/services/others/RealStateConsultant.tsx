@@ -10,7 +10,7 @@ const RealStateConsultant: React.FC = () => {
     return (
         <div>
             <ServiceRow
-                title="Real State Consultant"
+                title="Real EState Consultant"
                 description="Our team is dedicated to helping you find the perfect rental property in Japan."
                 serviceData={realsStateDataList}
                 pageType='realstate'
