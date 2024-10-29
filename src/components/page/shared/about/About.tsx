@@ -40,7 +40,7 @@ const AboutUs: React.FC = () => {
                             <div className="flex items-start">
                                 <span className="text-green-500 text-2xl mr-2">🏅</span>
                                 <div>
-                                    <h4 className="text-lg font-semibold">Year's Of Experience</h4>
+                                    <h4 className="text-lg font-semibold">{"Year's Of Experience"}</h4>
                                     {/* <p className="text-gray-600">10+ Years</p> */}
                                 </div>
                             </div>
