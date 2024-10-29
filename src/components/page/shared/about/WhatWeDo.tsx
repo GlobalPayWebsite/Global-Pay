@@ -15,7 +15,7 @@ const services = [
         iconUrl: '/assets/icons/approved.png',
     },
     {
-        title: "Real State",
+        title: "Real EState",
         description: "Help clients navigate the Japanese property market, offering expert guidance on buying, selling, or renting properties, with personalized support for both residential and commercial needs.",
         iconUrl: '/assets/icons/realstate.png',
     },

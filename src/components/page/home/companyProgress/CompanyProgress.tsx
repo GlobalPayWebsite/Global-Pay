@@ -6,22 +6,22 @@ import { motion } from 'framer-motion';
 const data = [
     {
         title: "Satified Clients",
-        count: 321,
+        count: 125,
         icon: <i className="fas fa-users stat-icon fa-1x" />
     },
     {
         title: "Projects Completed",
-        count: 340,
+        count: 103,
         icon: <i className="fas fa-tasks stat-icon fa-1x" />
     },
+    // {
+    //     title: "Employees",
+    //     count: 345,
+    //     icon: <i className="fas fa-briefcase stat-icon fa-1x" />
+    // },
     {
-        title: "Employees",
-        count: 345,
-        icon: <i className="fas fa-briefcase stat-icon fa-1x" />
-    },
-    {
-        title: "Years in Business",
-        count: 500,
+        title: "Hours Saved",
+        count: 178,
         icon: <i className="fas fa-calendar-alt stat-icon fa-1x" />
     }
 ]
@@ -47,7 +47,7 @@ const CompanyProgress: React.FC = () => {
                 </p>
             </motion.div>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 w-full h-fit">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-6 w-full h-fit">
                 {data.map((item, index) => (
                     <motion.div
                         key={index}

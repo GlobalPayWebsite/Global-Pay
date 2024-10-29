@@ -28,7 +28,7 @@ const AboutUs: React.FC = () => {
                 >
                     <div className="w-full">
                         <h1 className="text-4xl mb-4">
-                            Meet our company unless miss the opportunity
+                            Don’t miss the chance connect with us today!
                         </h1>
                         <p className="text-gray-600">
                             We offer expert consulting services in recruitment, SSW visas, real estate, education, and travel, providing personalized support and guidance tailored to each {"client's"} needs.
@@ -40,15 +40,15 @@ const AboutUs: React.FC = () => {
                             <div className="flex items-start">
                                 <span className="text-green-500 text-2xl mr-2">🏅</span>
                                 <div>
-                                    <h4 className="text-lg font-semibold">Year Of Expertise</h4>
-                                    <p className="text-gray-600">10+ Years</p>
+                                    <h4 className="text-lg font-semibold">Year's Of Experience</h4>
+                                    {/* <p className="text-gray-600">10+ Years</p> */}
                                 </div>
                             </div>
                             <div className="flex items-start mr-8">
                                 <span className="text-green-500 text-2xl mr-2">📞</span>
                                 <div>
                                     <h4 className="text-lg font-semibold">Call Us</h4>
-                                    <p className="text-gray-600">03-6687-7736</p>
+                                    <p className="text-gray-600">+81 03-6687-7736</p>
                                 </div>
                             </div>
                         </div>
@@ -76,7 +76,7 @@ const AboutUs: React.FC = () => {
                             whileHover={{ scale: 1.05 }}
                             transition={{ type: 'spring', stiffness: 300 }}
                         >
-                            Discover Now
+                            <a href="/about-us">Discover Now</a>
                         </motion.button>
                     </div>
                 </motion.div>

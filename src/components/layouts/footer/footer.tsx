@@ -142,6 +142,7 @@ const Footer: React.FC = () => {
                                 <h5 className="font-bold text-[16px] mb-2">Follow Us</h5>
                                 <div className="flex space-x-4">
                                     <a href="https://www.facebook.com/" target='_blank' className="w-[30px] h-[30px] transition-all delay-100 rounded-full flex items-center justify-center social-link-fb"><i className="fab fa-facebook"></i></a>
+                                    <a href="viber://add?number=8109092469379" target='_blank' className="w-[30px] h-[30px] transition-all delay-100 rounded-full flex items-center justify-center social-link-viber"><i className="fab fa-viber"></i></a>
                                     <a href="https://www.instagram.com/" target='_blank' className="w-[30px] h-[30px] transition-all delay-100 rounded-full flex items-center justify-center social-link-insta"><i className="fab fa-instagram"></i></a>
                                     <a href="https://x.com/" target='_blank' className="w-[30px] h-[30px] transition-all delay-100 rounded-full flex items-center justify-center social-link-tw">
                                         <i className="fa-brands fa-x-twitter"></i>
