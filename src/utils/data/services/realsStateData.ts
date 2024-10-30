@@ -30,7 +30,8 @@ export const realsStateDataList: DetailType[] = [
     description:
       "Our services are designed to cater to clients from all over the world. We oﬀer multilingual support to ensure clear communication and a smooth rental process, regardless of your native language. Our team speaks English, Japanese, Nepali, Hindi and Chinese languages to assist you better.",
     description_jp: "",
-    extraDescription: "",
+    extraDescription:
+      "We cater to a global clientele by offering dedicated multilingual support, ensuring every interaction is clear and every part of the rental process is smooth and hassle-free. Whether you’re a native speaker of English, Japanese, Nepali, Hindi, or Chinese, our team is well-prepared to communicate in your language, making it easier to understand options, ask questions, and feel fully supported. By bridging language barriers, we create a welcoming experience that feels personalized to each client's unique needs and background. Our goal is to provide a service that’s not only efficient but also considerate of linguistic preferences, enabling clients to make informed decisions with confidence and ease.",
     extraDescription_jp: "",
     image: "/assets/multilnguage-support.jpg",
     icon: null,
