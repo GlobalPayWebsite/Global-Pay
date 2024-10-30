@@ -99,7 +99,7 @@ export const recruitmentDataList: DetailType[] = [
         description_jp: '',
         extraDescription: '',
         extraDescription_jp: '',
-        image: '/assets/support-mentorship.jpg',
+        image: '/assets/support-mentorship.jpeg',
         icon: null,
         extraImage: '',
         _createdAt: '2024-10-23T12:00:00.000Z' // Example timestamp

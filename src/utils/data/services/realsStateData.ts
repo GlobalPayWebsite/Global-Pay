@@ -14,27 +14,25 @@ export const realsStateDataList: DetailType[] = [
     description_jp: "",
     extraDescription: "",
     extraDescription_jp: "",
-    image:
-      "https://hgtvhome.sndimg.com/content/dam/images/hgtv/fullset/2021/5/14/0/HUHH2021-Countryside_Beaver-Dam-Vail-CO_006.jpg.rend.hgtvcom.1280.853.suffix/1621002482384.jpeg",
+    image: "/assets/rental-assistance.jpeg",
     icon: null,
     extraImage: "",
     _createdAt: "2024-10-23T12:00:00.000Z", // Example timestamp
   },
   {
     _id: "2",
-    title: "Multilingual Support:",
+    title: "Multilingual Support",
     title_jp: "",
     subtitle: "Support for Every Client, in verity of Language.",
     subtitle_jp: "",
     category: "Rental Assistance",
     category_jp: "",
     description:
-      "Our services are designed to cater to clients from all over the world. We oﬀer multilingual support to ensure clear communication and a smooth rental process, regardless of your native language. Our team speaks English, Japanese, Nepali, Hindi, and several other languages to assist you beter.",
+      "Our services are designed to cater to clients from all over the world. We oﬀer multilingual support to ensure clear communication and a smooth rental process, regardless of your native language. Our team speaks English, Japanese, Nepali, Hindi and Chinese languages to assist you better.",
     description_jp: "",
     extraDescription: "",
     extraDescription_jp: "",
-    image:
-      "https://cdn.prod.website-files.com/62003a135c2613db4292bc04/656b12d1f6aca465bf56a9c3_Negotiate_Lease_Terms_with_Tenants.webp",
+    image: "/assets/multilnguage-support.jpg",
     icon: null,
     extraImage: "",
     _createdAt: "2024-10-23T12:00:00.000Z", // Example timestamp
@@ -52,8 +50,7 @@ export const realsStateDataList: DetailType[] = [
     description_jp: "",
     extraDescription: "",
     extraDescription_jp: "",
-    image:
-      "https://ap-northeast-1.graphassets.com/clxzycdtd0940070z1zdr1q3g/cm2g4kthr3tb90713dg7gra8i",
+    image: "/assets/expert-knowledge.webp",
     icon: null,
     extraImage: "",
     _createdAt: "2024-10-23T12:00:00.000Z", // Example timestamp
@@ -71,7 +68,7 @@ export const realsStateDataList: DetailType[] = [
     description_jp: "",
     extraDescription: "",
     extraDescription_jp: "",
-    image: "https://www.abdgayrimenkul.com/en/assets/images/mbr-5-1256x837.jpg",
+    image: "/assets/negotiation.jpg",
     icon: null,
     extraImage: "",
     _createdAt: "2024-10-23T12:00:00.000Z", // Example timestamp
@@ -89,14 +86,14 @@ export const realsStateDataList: DetailType[] = [
     description_jp: "",
     extraDescription: "",
     extraDescription_jp: "",
-    image: "https://www.abdgayrimenkul.com/en/assets/images/mbr-5-1256x837.jpg",
+    image: "/assets/post-move.webp",
     icon: null,
     extraImage: "",
     _createdAt: "2024-10-23T12:00:00.000Z", // Example timestamp
   },
   {
     _id: "6",
-    title: "Relocation Services:",
+    title: "Relocation Services",
     title_jp: "",
     subtitle: " Making Your Transition to Japan Stress-Free",
     subtitle_jp: "",
@@ -107,7 +104,7 @@ export const realsStateDataList: DetailType[] = [
     description_jp: "",
     extraDescription: "",
     extraDescription_jp: "",
-    image: "https://www.abdgayrimenkul.com/en/assets/images/mbr-5-1256x837.jpg",
+    image: "/assets/relocation.jpg",
     icon: null,
     extraImage: "",
     _createdAt: "2024-10-23T12:00:00.000Z", // Example timestamp

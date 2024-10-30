@@ -14,18 +14,17 @@ export const travelConsultantdataList: DetailType[] = [
     description_jp: "",
     extraDescription: "",
     extraDescription_jp: "",
-    image:
-      "https://static.visa2fly.com/blog/blog-production/places-to-visit-in-japan/places-to-visit-in-japan.jpeg",
+    image: "/assets/tickets.jpeg",
     icon: null,
     extraImage: "",
     _createdAt: "2024-10-23T12:00:00.000Z", // Example timestamp
-    },
-  
+  },
+
   {
     _id: "2",
     title: "Customized Travel Packages",
     title_jp: "",
-    subtitle: "",
+    subtitle: "Personalized Itineraries to Suit Your Style",
     subtitle_jp: "",
     category: "Travel Assistance",
     category_jp: "",
@@ -34,8 +33,7 @@ export const travelConsultantdataList: DetailType[] = [
     description_jp: "",
     extraDescription: "",
     extraDescription_jp: "",
-    image:
-      "https://static.visa2fly.com/blog/blog-production/places-to-visit-in-japan/places-to-visit-in-japan.jpeg",
+    image: "/assets/customized-tour-packages.jpg",
     icon: null,
     extraImage: "",
     _createdAt: "2024-10-23T12:00:00.000Z", // Example timestamp
@@ -44,7 +42,7 @@ export const travelConsultantdataList: DetailType[] = [
     _id: "3",
     title: "Travel Insurance",
     title_jp: "",
-    subtitle: "",
+    subtitle: "rotection Against the Unexpected",
     subtitle_jp: "",
     category: "Travel Assistance",
     category_jp: "",
@@ -53,8 +51,7 @@ export const travelConsultantdataList: DetailType[] = [
     description_jp: "",
     extraDescription: "",
     extraDescription_jp: "",
-    image:
-      "https://static.visa2fly.com/blog/blog-production/places-to-visit-in-japan/places-to-visit-in-japan.jpeg",
+    image: "/assets/travel-insurance.jpg",
     icon: null,
     extraImage: "",
     _createdAt: "2024-10-23T12:00:00.000Z", // Example timestamp
@@ -72,8 +69,7 @@ export const travelConsultantdataList: DetailType[] = [
     description_jp: "",
     extraDescription: "",
     extraDescription_jp: "",
-    image:
-      "https://static.visa2fly.com/blog/blog-production/places-to-visit-in-japan/places-to-visit-in-japan.jpeg",
+    image: "/assets/accomodation.jpg",
     icon: null,
     extraImage: "",
     _createdAt: "2024-10-23T12:00:00.000Z", // Example timestamp
@@ -91,8 +87,7 @@ export const travelConsultantdataList: DetailType[] = [
     description_jp: "",
     extraDescription: "",
     extraDescription_jp: "",
-    image:
-      "https://static.visa2fly.com/blog/blog-production/places-to-visit-in-japan/places-to-visit-in-japan.jpeg",
+    image: "/assets/customer-support.jpeg",
     icon: null,
     extraImage: "",
     _createdAt: "2024-10-23T12:00:00.000Z", // Example timestamp
@@ -110,8 +105,7 @@ export const travelConsultantdataList: DetailType[] = [
     description_jp: "",
     extraDescription: "",
     extraDescription_jp: "",
-    image:
-      "https://static.visa2fly.com/blog/blog-production/places-to-visit-in-japan/places-to-visit-in-japan.jpeg",
+    image: "/assets/airtravel.jpg",
     icon: null,
     extraImage: "",
     _createdAt: "2024-10-23T12:00:00.000Z", // Example timestamp

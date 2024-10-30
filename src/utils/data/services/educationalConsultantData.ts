@@ -14,8 +14,7 @@ export const educationalConsultantDataList: DetailType[] = [
     description_jp: "",
     extraDescription: "",
     extraDescription_jp: "",
-    image:
-      "https://www.globalcareercounsellor.com/blog/wp-content/uploads/2021/12/Start-an-Overseas-Education-Consultancy-1-1200x900.jpg",
+    image: "/assets/personal-guidance.jpg",
     icon: null,
     extraImage: "",
     _createdAt: "2024-10-23T12:00:00.000Z", // Example timestamp
@@ -24,7 +23,7 @@ export const educationalConsultantDataList: DetailType[] = [
     _id: "2",
     title: "University and Course Selection",
     title_jp: "",
-    subtitle: " Iden�fying the Best Fit for Your Ambitions.",
+    subtitle: " Identifying the Best Fit for Your Ambitions.",
     subtitle_jp: "",
     category: "Education Support",
     category_jp: "",
@@ -33,8 +32,7 @@ export const educationalConsultantDataList: DetailType[] = [
     description_jp: "",
     extraDescription: "",
     extraDescription_jp: "",
-    image:
-      "https://www.globalcareercounsellor.com/blog/wp-content/uploads/2021/12/Start-an-Overseas-Education-Consultancy-1-1200x900.jpg",
+    image: "/assets/course-selections.jpg",
     icon: null,
     extraImage: "",
     _createdAt: "2024-10-23T12:00:00.000Z", // Example timestamp
@@ -52,8 +50,7 @@ export const educationalConsultantDataList: DetailType[] = [
     description_jp: "",
     extraDescription: "",
     extraDescription_jp: "",
-    image:
-      "https://www.globalcareercounsellor.com/blog/wp-content/uploads/2021/12/Start-an-Overseas-Education-Consultancy-1-1200x900.jpg",
+    image: "/assets/application-assistance.webp",
     icon: null,
     extraImage: "",
     _createdAt: "2024-10-23T12:00:00.000Z", // Example timestamp
@@ -71,8 +68,7 @@ export const educationalConsultantDataList: DetailType[] = [
     description_jp: "",
     extraDescription: "",
     extraDescription_jp: "",
-    image:
-      "https://www.globalcareercounsellor.com/blog/wp-content/uploads/2021/12/Start-an-Overseas-Education-Consultancy-1-1200x900.jpg",
+    image: "/assets/pre-depature.jpg",
     icon: null,
     extraImage: "",
     _createdAt: "2024-10-23T12:00:00.000Z", // Example timestamp
@@ -90,8 +86,7 @@ export const educationalConsultantDataList: DetailType[] = [
     description_jp: "",
     extraDescription: "",
     extraDescription_jp: "",
-    image:
-      "https://www.globalcareercounsellor.com/blog/wp-content/uploads/2021/12/Start-an-Overseas-Education-Consultancy-1-1200x900.jpg",
+    image: "/assets/post-arival.webp",
     icon: null,
     extraImage: "",
     _createdAt: "2024-10-23T12:00:00.000Z", // Example timestamp
@@ -109,8 +104,7 @@ export const educationalConsultantDataList: DetailType[] = [
     description_jp: "",
     extraDescription: "",
     extraDescription_jp: "",
-    image:
-      "https://www.globalcareercounsellor.com/blog/wp-content/uploads/2021/12/Start-an-Overseas-Education-Consultancy-1-1200x900.jpg",
+    image: "/assets/edu-counseling.webp",
     icon: null,
     extraImage: "",
     _createdAt: "2024-10-23T12:00:00.000Z", // Example timestamp
