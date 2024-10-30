@@ -62,7 +62,7 @@ const AboutUs: React.FC = () => {
                             transition={{ duration: 0.8, delay: 0.6 }}
                         >
                             <Image
-                                src="/assets/about.jpg"
+                                src="/assets/about-us.jpg"
                                 alt="Business illustration"
                                 className="w-full h-full object-cover object-center"
                                 width={40}
