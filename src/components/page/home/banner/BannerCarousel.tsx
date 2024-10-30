@@ -32,7 +32,7 @@ const banners = [
         "imagePosition": "object-top"
     },
     {
-        "heading": "Real State",
+        "heading": "Real EState",
         "sub-heading": "Business",
         "paragraph": "Find your perfect home in Japan with our expert real estate consultancy. From cozy rentals to spacious family homes, we provide personalized, multilingual support to meet your needs.",
         "sub-tag": "Learn More",
