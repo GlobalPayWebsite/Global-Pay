@@ -6,6 +6,7 @@ import Image from 'next/image';
 import { DetailType, PageType } from '@/typing';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
+import { useToggleLanguageConversion } from '@/utils/hooks/hooks';
 
 interface ServiceCardProps {
     index: number;
@@ -17,6 +18,7 @@ interface ServiceCardProps {
 const ServiceCard: React.FC<ServiceCardProps> = ({ index, details, pageType, length = 0 }) => {
     const initial = index % 2 == 1 ? { opacity: 0, x: 100 } : { opacity: 0, x: -100 };
     const whileInView = index % 2 == 1 ? { opacity: 1, x: 0 } : { opacity: 1, x: 0 };
+    const { toggleLanguage } = useToggleLanguageConversion();
     return (
         <motion.div
             className='w-full hover:shadow-lg border'
@@ -42,10 +44,23 @@ const ServiceCard: React.FC<ServiceCardProps> = ({ index, details, pageType, len
                         <Image unoptimized height={200} width={200} className="h-full w-full object-cover object-center transform transition-transform duration-200 group-hover:scale-105 group-hover:rotate-1" src={details?.image || ""} alt={details?.title || ""} />
                     </div>
                     <div className="p-5 flex-1">
-                        <h2 className="text-2xl font-semibold">{details?.title || ""}</h2>
-                        <h3 className="text-gray-500 mb-4">{details?.subtitle || ""}</h3>
+                        <h2 className="text-2xl font-semibold">{toggleLanguage({
+                            engTxt: details?.title || "",
+                            japTxt: details?.title_jp || ""
+                        }) || ""}</h2>
+                        <h3 className="text-gray-500 mb-4">{
+                            toggleLanguage({
+                                engTxt: details?.subtitle || "",
+                                japTxt: details?.subtitle_jp || ""
+                            }) || ""
+                        }</h3>
                         <div className={`w-12 h-1 group-hover:w-20 transition-all delay-75 rounded-full bg-theme mb-4`}></div>
-                        <p className="text-gray-700 text-sm line-clamp-4 overflow-hidden">{details?.description || ""}</p>
+                        <p className="text-gray-700 text-sm line-clamp-4 overflow-hidden">{
+                            toggleLanguage({
+                                engTxt: details?.description || "",
+                                japTxt: details?.description_jp || ""
+                            }) || ""
+                        }</p>
                     </div>
                 </div>
             </Link>
