@@ -25,8 +25,6 @@ const Sidebar: React.FC<SidebarProps> = ({ isSidebarOpen, setIsSidebarOpen }) =>
         setIsSidebarOpen(!isSidebarOpen);
     };
 
-    
-
     return (
         <div className={isSidebarOpen ? "absolute z-50 top-0 left-0 w-[100vw] h-[100vh] bg-[#0000007d]" : ""}>
             <div className='relative'>
@@ -46,7 +44,7 @@ const Sidebar: React.FC<SidebarProps> = ({ isSidebarOpen, setIsSidebarOpen }) =>
                         {/* Sidebar Menu */}
                         <ul className="space-y-2">
                             {navLinks.map((link, index) => (
-                                <SidebarNavItem key={index} link={link} />
+                                <SidebarNavItem key={index} link={link} isSidebarOpen={isSidebarOpen} setIsSidebarOpen={setIsSidebarOpen} />
                             ))}
                         </ul>
 

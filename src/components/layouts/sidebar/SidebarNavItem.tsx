@@ -1,7 +1,6 @@
 "use client";
 import { useToggleLanguageConversion } from '@/utils/hooks/hooks';
-import Link from 'next/link';
-import { usePathname } from 'next/navigation';
+import { usePathname, useRouter } from 'next/navigation';
 import React, { useEffect, useRef, useState } from 'react';
 
 interface NavLink {
@@ -13,14 +12,16 @@ interface NavLink {
 
 interface SidebarNavItemProps {
     link: NavLink;
+    isSidebarOpen: boolean
+    setIsSidebarOpen: (value: boolean) => void;
 }
 
-const SidebarNavItem: React.FC<SidebarNavItemProps> = ({ link }) => {
+const SidebarNavItem: React.FC<SidebarNavItemProps> = ({ link, setIsSidebarOpen }) => {
     const [isDropdownOpen, setIsDropdownOpen] = useState(false);
     const dropdownRef = useRef<HTMLUListElement | null>(null);
     const pathname = usePathname();
     const { toggleLanguage } = useToggleLanguageConversion();
-
+    const router = useRouter();
     const closeDropdown = () => {
         setIsDropdownOpen(false);
     };
@@ -34,6 +35,13 @@ const SidebarNavItem: React.FC<SidebarNavItemProps> = ({ link }) => {
         }
     };
 
+
+    const navigate = (link: string) => {
+        setIsSidebarOpen(false);
+        router.push(link);
+    }
+
+
     useEffect(() => {
         if (isDropdownOpen) {
             document.addEventListener('mousedown', handleClickOutside);
@@ -44,6 +52,7 @@ const SidebarNavItem: React.FC<SidebarNavItemProps> = ({ link }) => {
         return () => {
             document.removeEventListener('mousedown', handleClickOutside);
         };
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [isDropdownOpen]);
 
     return (
@@ -54,7 +63,9 @@ const SidebarNavItem: React.FC<SidebarNavItemProps> = ({ link }) => {
                         className={`${link.className} ${pathname.includes(link.href) && "bg-theme text-white"} flex justify-center items-center w-full py-1 px-4 text-gray-800 hover:bg-theme rounded-md hover:text-white focus:outline-none`}
                         onClick={toggleDropdown}
                     >
-                        {link.name}
+                        {toggleLanguage({
+                            i18Txt: link.name,
+                        })}
                         <span className="ml-2 text-[13px]">
                             {isDropdownOpen ? '▲' : '▼'}
                         </span>
@@ -65,21 +76,21 @@ const SidebarNavItem: React.FC<SidebarNavItemProps> = ({ link }) => {
                     >
                         {link.dropdownLinks.map((dropdownLink, index) => (
                             <li key={index} className="w-full flex justify-center items-center">
-                                <Link style={{ textDecoration: 'none' }} href={dropdownLink.href} className={`${pathname == dropdownLink.href ? "bg-gray-200" : "text-gray-950"} py-1  hover:bg-gray-100 w-full flex justify-center items-center`}>
+                                <button style={{ textDecoration: 'none' }} onClick={() => navigate(dropdownLink.href)} className={`${pathname == dropdownLink.href ? "bg-gray-200" : "text-gray-950"} py-1  hover:bg-gray-100 w-full flex justify-center items-center`}>
                                     {toggleLanguage({
                                         i18Txt: dropdownLink.name,
                                     })}
-                                </Link>
+                                </button>
                             </li>
                         ))}
                     </ul>
                 </div>
             ) : (
-                <Link style={{ textDecoration: 'none' }} href={link.href} className={`${pathname == link.href && "bg-theme text-white"} block py-1 px-4 text-gray-800 hover:bg-theme rounded-md hover:text-white text-center`}>
+                <button style={{ textDecoration: 'none' }} onClick={() => navigate(link.href)} className={`${pathname == link.href && "bg-theme text-white"} flex items-center justify-center w-full py-1 px-4 text-gray-800 hover:bg-theme rounded-md hover:text-white text-center`}>
                     {toggleLanguage({
                         i18Txt: link.name,
                     })}
-                </Link>
+                </button>
             )}
         </li>
     );

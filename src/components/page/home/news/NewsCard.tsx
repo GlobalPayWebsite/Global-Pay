@@ -3,6 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 import { motion } from 'framer-motion';
+import { useToggleLanguageConversion } from '@/utils/hooks/hooks';
 
 
 
@@ -10,6 +11,7 @@ interface NewsCardProps {
     details: DetailType
 }
 const NewsCard: React.FC<NewsCardProps> = ({ details }) => {
+    const { toggleLanguage } = useToggleLanguageConversion();
     return (
         <motion.div
             className='w-full'
@@ -35,8 +37,14 @@ const NewsCard: React.FC<NewsCardProps> = ({ details }) => {
                 </div>
                 <div className="p-4 flex-1 flex-grow ">
                     <p className='text-xs'>{details._createdAt || ""}</p>
-                    <h2 className="text-md font-bold mb-2">{details?.title || ""}</h2>
-                    <p className="text-gray-600 text-sm">{details?.description ? details?.description?.substring(0, 100) + "..." : ""}</p>
+                    <h2 className="text-md font-bold mb-2">{toggleLanguage({
+                        engTxt: details?.title,
+                        japTxt: details?.title_jp
+                    }) || ""}</h2>
+                    <p className="text-gray-600 text-sm">{details?.description ? (toggleLanguage({
+                        engTxt: details?.description || "",
+                        japTxt: details?.description_jp || ""
+                    }) as string)?.substring(0, 100) + "..." : ""}</p>
                 </div>
             </Link>
         </motion.div>

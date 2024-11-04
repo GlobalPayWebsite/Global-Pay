@@ -4,7 +4,7 @@ interface MultlangType {
     currentLanguage: "en" | "jp";
 }
 const initialState: MultlangType = {
-    currentLanguage: "en"
+    currentLanguage: "jp"
 };
 
 const multiLanguageSlice = createSlice({

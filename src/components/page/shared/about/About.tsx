@@ -3,8 +3,10 @@ import Image from 'next/image';
 import React from 'react';
 import { motion } from 'framer-motion';
 import WhatWeDO from './WhatWeDo';
+import { useTranslation } from 'react-i18next';
 
 const AboutUs: React.FC = () => {
+    const {t} = useTranslation();
     return (
         <div
             className="box-container py-[64px] flex flex-col gap-5 overflow-x-hidden"
@@ -15,7 +17,7 @@ const AboutUs: React.FC = () => {
                 whileInView={{ opacity: 1, x: 0 }}
                 transition={{ duration: 0.9, delay: 0.4 }}
             >
-                About Us
+                {t("About Us")}
             </motion.h4>
 
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">

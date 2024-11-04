@@ -13,7 +13,9 @@ const resources = {
       "Recruitment": "採用",
       "Other Services": "その他のサービス",
       "Immigration Lawyer": "移民弁護士",
-      "Contact": "連絡先"
+      "Contact": "連絡先",
+      "Solomon Capital": "ソロモンキャピタル",
+      "SSW": "熟練労働者",
     },
   },
 }

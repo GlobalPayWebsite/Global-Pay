@@ -45,6 +45,10 @@ body {
   background-color: #ffffff; /* Active bullet color */
 }
 
+.swiper-pagination-bullets-dynamic{
+	display: block;
+}
+
 
 .social-link-fb {
   color: white;

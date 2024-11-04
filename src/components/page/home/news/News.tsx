@@ -37,7 +37,7 @@ const News: React.FC = () => {
                 transition={{ duration: 0.7, delay: 0.2 }}
             >
                 <Swiper
-                    modules={[Pagination, Navigation,Autoplay]}
+                    modules={[Pagination, Navigation, Autoplay]}
                     spaceBetween={20} // Space between slides
                     slidesPerView={1} // Initially, show one slide
                     breakpoints={{
@@ -56,6 +56,8 @@ const News: React.FC = () => {
                     }}
                     pagination={{
                         clickable: true,
+                        dynamicBullets: true,
+                        dynamicMainBullets: 5 // Show a maximum of 6 bullets (1 center + 5 surrounding)
                     }}
                     navigation={true}
                     loop={true}
