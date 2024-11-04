@@ -36,7 +36,7 @@ const NewsCard: React.FC<NewsCardProps> = ({ details }) => {
                     </div>}
                 </div>
                 <div className="p-4 flex-1 flex-grow ">
-                    <p className='text-xs'>{details._createdAt || ""}</p>
+                    {/* <p className='text-xs'>{details._createdAt || ""}</p> */}
                     <h2 className="text-md font-bold mb-2">{toggleLanguage({
                         engTxt: details?.title,
                         japTxt: details?.title_jp
