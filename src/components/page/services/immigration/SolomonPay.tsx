@@ -12,7 +12,7 @@ const SolomonPay: React.FC = () => {
                     <div className="flex justify-center space-x-4 text-3xl md:text-5xl font-bold mb-8">
                         <Image height={20} width={20} unoptimized src="/assets/solomon-pay.jpg" alt="logo" className='h-32 w-32 rounded-full object-cover' />
                     </div>
-                    <h1 className="text-xl md:text-5xl font-bold mb-4 text-zinc-50">Solomon Pay Remittance</h1>
+                    <h1 className="text-xl md:text-5xl font-bold mb-4 text-zinc-50">Solomon Capital Japan Inc.</h1>
                     <h1 className="text-4xl md:text-5xl font-bold mb-4 text-zinc-50	">COMMING SOON !</h1>
                     <p className="text-lg mb-8 text-zinc-50	">To make your international money transfers faster, safer, and more affordable.</p>
 
