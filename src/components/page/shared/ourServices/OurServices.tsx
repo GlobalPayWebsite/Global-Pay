@@ -16,7 +16,7 @@ const servicesData = [
     },
     {
         title: "Support for Graduates",
-        description: "Dedicated services for Nepali graduates seeking global career paths.",
+        description: "Dedicated services for graduates pursuing global career opportunities.",
         icon: <i className="fa-solid fa-user-graduate"></i>,
     },
     {

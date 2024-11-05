@@ -4,7 +4,7 @@ export const recruitmentDataList: DetailType[] = [
     {
         _id: '1',
         title: 'Job Placement Assistance',
-        title_jp: 'リクルートメントサービス • ジョブプレースメントアシスタンス',
+        title_jp: 'ジョブプレースメントアシスタンス',
         subtitle: 'Empowering Your Career Journey',
         subtitle_jp: 'お客様のキャリアを支援します',
         category: 'Career Assistance',

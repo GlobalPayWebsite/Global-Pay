@@ -18,8 +18,8 @@ const TravelConsultant: React.FC = () => {
                 }) as string || ""}
                 // description="We specialize in helping individuals residing in Japan find suitable job opportunities."
                 description={toggleLanguage({
-                    engTxt: "We specialize in helping individuals residing in Japan find suitable job opportunities.",
-                    japTxt: "日本に住んでいる個人が適切な仕事を見つけるのをお手伝いします"
+                    engTxt: "Crafting Unforgettable Journeys with Personalized Travel Expertise.",
+                    japTxt: "パーソナライズされた旅行の専門知識で忘れられない旅を作り上げる"
                 }) as string || ""}
                 serviceData={travelConsultantdataList}
                 pageType='travel'

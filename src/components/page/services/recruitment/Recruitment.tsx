@@ -19,7 +19,7 @@ const Recruitment: React.FC = () => {
                 title={
                     toggleLanguage({
                         engTxt: "Recruitment",
-                        japTxt: "採用"
+                        japTxt: "リクルートメントサービス"
                     }) as string || ""
                 }
                 description={toggleLanguage({

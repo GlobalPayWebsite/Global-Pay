@@ -516,16 +516,16 @@ export const newsList: DetailType[] = [
       },
       {
         _id: "5",
-        title: "24/7 Customer Support",
-        title_jp: "24時間年中無休のカスタマーサポート",
+        title: "Customer Support",
+        title_jp: "カスタマーサポート",
         subtitle: "Support Anytime, Anywhere for Travelers",
-        subtitle_jp: "旅行者のためのいつでもどこでもサポート",
+        subtitle_jp: "旅行者のためのいつでもどこでもサポートします。",
         category: "Travel Assistance",
         category_jp: "旅行サポート",
         description:
-          "Our dedicated customer support team is available 24/7 to assist you with any travel-related queries or issues, ensuring you have a smooth and stress-free journey.",
+          "Our dedicated customer support team is available to assist you with any travel-related queries or issues, ensuring you have a smooth and stress-free journey.",
         description_jp:
-          "専任のカスタマーサポートチームが24時間年中無休で旅行に関するご質問や問題に対応し、スムーズでストレスのない旅をサポートします。",
+          "専任のカスタマーサポートチームが旅行に関するご質問や問題に対応し、スムーズでストレスのない旅をサポートします。",
         extraDescription: "",
         extraDescription_jp: "",
         image: "/assets/customer-support.jpeg",

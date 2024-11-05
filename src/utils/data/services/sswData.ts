@@ -4,7 +4,7 @@ export const sswDataList: DetailType[] = [
   {
     _id: "1",
     title: "Comprehensive Support for SSW (i) and SSW (ii)",
-    title_jp: "SSWリクルートメントサービス • SSW（i）およびSSW（ii）に対する包括的サポート",
+    title_jp: "SSW（i）およびSSW（ii）に対する包括的サポート",
     subtitle: "Guiding You Through Visa Success",
     subtitle_jp: "ビザ取得へ導きます",
     category: "Visa Support",
