@@ -5,7 +5,7 @@ const services = [
     {
         icon: <i className="fa-solid fa-address-book" />,
         title: "Address",
-        description: "1-chome-20-17 Hyakunincho, Shinjuku City, Tokyo 169-0073",
+        description: "1-chome 20-17 Hyakunincho, Shinjuku City, Tokyo 169-0073",
     },
     {
         icon: <i className="fa-regular fa-envelope" />,

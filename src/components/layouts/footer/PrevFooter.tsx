@@ -26,7 +26,7 @@ const Footer: React.FC = () => {
                         </div>
                         <div>
                             <p className="text-[16px]">
-                                1-chome-20-17 Hyakunincho <br />
+                                1-chome 20-17 Hyakunincho <br />
                                 Shinjuku City, Tokyo 169-0073
                             </p>
                             <p className="mt-2">
