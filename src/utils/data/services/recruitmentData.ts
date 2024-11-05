@@ -81,7 +81,7 @@ export const recruitmentDataList: DetailType[] = [
         description_jp: '外国人が日本の職場文化や社会的規範を理解し、適応するための文化的オリエンテーションプログラムを提供し、スムーズな移行とより良い統合を実現します。',
         extraDescription: '',
         extraDescription_jp: '',
-        image: '/assets/cultural-oreintation-program.jpg',
+        image: '/assets/cultural-oreintation-program.webp',
         icon: null,
         extraImage: '',
         _createdAt: '2024-10-23T12:00:00.000Z'
