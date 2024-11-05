@@ -3,10 +3,19 @@ import Image from 'next/image';
 import React from 'react';
 import { motion } from 'framer-motion';
 import WhatWeDO from './WhatWeDo';
-import { useTranslation } from 'react-i18next';
+import { useToggleLanguageConversion } from '@/utils/hooks/hooks';
+
+const aboutUsData = {
+    title: "About Us",
+    title_jp: "当社について",
+    sub_title: "Don’t miss the chance connect with us today!",
+    sub_title_jp: "今日、当社とつながるチャンスをお見逃しなく",
+    description: "We offer expert consulting services in recruitment, SSW visas, real estate, education, and travel, providing personalized support and guidance tailored to each client's needs.",
+    description_jp: "「当社は、雇用、SSWビザ、不動産、教育、旅行における専門的なコンサルティングサービスを提供しており、各クライアントのニーズに合わせたパーソナライズされたサポートとガイダンスを行っています。」",
+}
 
 const AboutUs: React.FC = () => {
-    const {t} = useTranslation();
+    const { toggleLanguage } = useToggleLanguageConversion();
     return (
         <div
             className="box-container py-[64px] flex flex-col gap-5 overflow-x-hidden"
@@ -17,7 +26,10 @@ const AboutUs: React.FC = () => {
                 whileInView={{ opacity: 1, x: 0 }}
                 transition={{ duration: 0.9, delay: 0.4 }}
             >
-                {t("About Us")}
+                {toggleLanguage({
+                    engTxt: aboutUsData.title,
+                    japTxt: aboutUsData.title_jp
+                })}
             </motion.h4>
 
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
@@ -30,10 +42,16 @@ const AboutUs: React.FC = () => {
                 >
                     <div className="w-full">
                         <h1 className="text-4xl mb-4">
-                            Don’t miss the chance connect with us today!
+                            {toggleLanguage({
+                                engTxt: aboutUsData.sub_title,
+                                japTxt: aboutUsData.sub_title_jp
+                            })}
                         </h1>
                         <p className="text-gray-600">
-                            We offer expert consulting services in recruitment, SSW visas, real estate, education, and travel, providing personalized support and guidance tailored to each {"client's"} needs.
+                            {toggleLanguage({
+                                engTxt: aboutUsData.description,
+                                japTxt: aboutUsData.description_jp
+                            })}
                         </p>
                     </div>
 
@@ -42,14 +60,22 @@ const AboutUs: React.FC = () => {
                             <div className="flex items-start">
                                 <span className="text-green-500 text-2xl mr-2">🏅</span>
                                 <div>
-                                    <h4 className="text-lg font-semibold">{"Year's Of Experience"}</h4>
+                                    <h4 className="text-lg font-semibold">{toggleLanguage({
+                                        engTxt: "Year's Of Experience",
+                                        japTxt: "経験年数"
+                                    })}</h4>
                                     {/* <p className="text-gray-600">10+ Years</p> */}
                                 </div>
                             </div>
                             <div className="flex items-start mr-8">
                                 <span className="text-green-500 text-2xl mr-2">📞</span>
                                 <div>
-                                    <h4 className="text-lg font-semibold">Call Us</h4>
+                                    <h4 className="text-lg font-semibold">
+                                        {toggleLanguage({
+                                            engTxt: "Call Us",
+                                            japTxt: "電話"
+                                        })}
+                                    </h4>
                                     <p className="text-gray-600">+81 03-6687-7736</p>
                                 </div>
                             </div>
@@ -78,7 +104,10 @@ const AboutUs: React.FC = () => {
                             whileHover={{ scale: 1.05 }}
                             transition={{ type: 'spring', stiffness: 300 }}
                         >
-                            <a href="/about-us">Discover Now</a>
+                            <a href="/about-us">{toggleLanguage({
+                                engTxt: "Discover Now",
+                                japTxt: "今すぐ発見"
+                            })}</a>
                         </motion.button>
                     </div>
                 </motion.div>

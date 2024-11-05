@@ -8,7 +8,7 @@ const resources = {
     translation: {
       // navigation links
       "Home": "ホーム",
-      "About Us": "私たちに関しては",
+      "About Us": "当社について",
       "Services": "サービス",
       "Recruitment": "採用",
       "Other Services": "その他のサービス",

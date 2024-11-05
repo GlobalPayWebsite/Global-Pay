@@ -11,10 +11,12 @@ import 'swiper/css/free-mode';
 import 'swiper/css/pagination';
 import './news.css'
 import { newsList } from '@/utils/data/news/newsData';
+import { useToggleLanguageConversion } from '@/utils/hooks/hooks';
 
 
 
 const News: React.FC = () => {
+    const { toggleLanguage } = useToggleLanguageConversion();
     return (
         <div className="flex flex-col box-container pt-[64px] bg-background overflow-hidden">
             <motion.div
@@ -23,9 +25,15 @@ const News: React.FC = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.7, delay: 0.2 }}
             >
-                <h2 className="text-xl sm:text-3xl font-bold mb-3 text-theme">News and Updates</h2>
+                <h2 className="text-xl sm:text-3xl font-bold mb-3 text-theme">{toggleLanguage({
+                    engTxt: "News and Updates",
+                    japTxt: "ニュースとアップデート"
+                })}</h2>
                 <p className="text-center mb-8 max-w-[720px]">
-                    Stay up to date with the latest news and updates from our team. Learn more about our services, job placements, and career advice.
+                    {toggleLanguage({
+                        engTxt: "Stay up to date with the latest news and updates from our team. Learn more about our services, job placements, and career advice.",
+                        japTxt: "チームからの最新ニュースとアップデートをご覧ください。当社のサービス、就職斡旋、キャリアアドバイスについてもっと詳しく知ることができます。"
+                    })}
                 </p>
             </motion.div>
 

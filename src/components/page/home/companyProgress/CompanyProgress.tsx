@@ -2,31 +2,46 @@
 import React from 'react';
 import CountUp from 'react-countup';
 import { motion } from 'framer-motion';
+import { useToggleLanguageConversion } from '@/utils/hooks/hooks';
+
+// COMPANY PROGRESS
+// Our company is dedicated to delivering excellent service, helping clients achieve their goals with tailored solutions. With a focus on quality and client satisfaction, we’re here to support you every step of the way.
+
+// 会社の進展
+// 当社は、優れたサービスを提供し、お客様に合わせたソリューションで目標を達成できるよう支援することに専念しています。焦点を当てて
+
+// 125
+// Satified Clients (満足したクライアント数)
+// 103
+// Projects Completed (完了したプロジェクト数)
+
+// 178
+// Hours Saved (節約された時間)
+
 
 const data = [
     {
         title: "Satified Clients",
+        title_jp: "満足したクライアント数",
         count: 125,
         icon: <i className="fas fa-users stat-icon fa-1x" />
     },
     {
         title: "Projects Completed",
+        title_jp: "完了したプロジェクト数",
         count: 103,
         icon: <i className="fas fa-tasks stat-icon fa-1x" />
     },
-    // {
-    //     title: "Employees",
-    //     count: 345,
-    //     icon: <i className="fas fa-briefcase stat-icon fa-1x" />
-    // },
     {
         title: "Hours Saved",
+        title_jp: "節約された時間",
         count: 178,
         icon: <i className="fas fa-calendar-alt stat-icon fa-1x" />
     }
 ]
 
 const CompanyProgress: React.FC = () => {
+    const { toggleLanguage } = useToggleLanguageConversion();
     const animateFromBottom = {
         initial: { opacity: 0, y: 100 },
         animate: { opacity: 1, y: 0 },
@@ -41,9 +56,17 @@ const CompanyProgress: React.FC = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.7, delay: 0.2 }}
             >
-                <h2 className="text-xl md:text-3xl font-bold mb-3 text-theme">COMPANY PROGRESS</h2>
+                <h2 className="text-xl md:text-3xl font-bold mb-3 text-theme">{
+                    toggleLanguage({
+                        engTxt: "COMPANY PROGRESS",
+                        japTxt: "会社の進展"
+                    })
+                }</h2>
                 <p className="text-center mb-8 max-w-[720px]">
-                    Our company is dedicated to delivering excellent service, helping clients achieve their goals with tailored solutions. With a focus on quality and client satisfaction, we’re here to support you every step of the way.
+                    {toggleLanguage({
+                        engTxt: "Our company is dedicated to delivering excellent service, helping clients achieve their goals with tailored solutions. With a focus on quality and client satisfaction, we’re here to support you every step of the way.",
+                        japTxt: "当社は、優れたサービスを提供し、お客様に合わせたソリューションで目標を達成できるよう支援することに専念しています。焦点を当てて"
+                    })}
                 </p>
             </motion.div>
 
@@ -64,7 +87,10 @@ const CompanyProgress: React.FC = () => {
                         <div className="text-6xl font-bold">
                             <CountUp start={0} end={item.count} duration={3} />
                         </div>
-                        <div className="text-xl">{item.title}</div>
+                        <div className="text-xl">{toggleLanguage({
+                            engTxt: item.title,
+                            japTxt: item.title_jp
+                        })}</div>
                     </motion.div>
                 ))}
             </div>

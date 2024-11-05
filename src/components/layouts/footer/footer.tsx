@@ -1,3 +1,5 @@
+"use client";
+import { useToggleLanguageConversion } from '@/utils/hooks/hooks';
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
@@ -5,10 +7,12 @@ import React from 'react';
 const usefulLinks = [
     {
         name: 'Home',
-        href: '/'
+        name_jp: 'ホーム',
+        href: '/',
     },
     {
         name: 'About Us',
+        name_jp: '当社について',
         href: '/about-us'
     },
     // {
@@ -21,10 +25,12 @@ const usefulLinks = [
     // },
     {
         name: 'Contact Us',
+        name_jp: '連絡先',
         href: '/contact'
     },
     {
         name: 'Company Profile',
+        name_jp: '会社概要',
         href: '/companyprofile'
     }
 ]
@@ -32,22 +38,27 @@ const usefulLinks = [
 const ourServices = [
     {
         name: 'Recruitment',
+        name_jp: '採用',
         href: '/service/recruitment'
     },
     {
         name: 'SSW',
+        name_jp: '熟練労働者',
         href: '/service/ssw'
     },
     {
         name: 'Real Estate Consultant',
+        name_jp: '不動産',
         href: '/service/realstate-consultant'
     },
     {
         name: 'Educational Consultant',
+        name_jp: '教育',
         href: '/service/educational-consultant'
     },
     {
         name: 'Travel Consultant',
+        name_jp: '旅行',
         href: '/service/travel-consultant'
     }
 ]
@@ -55,19 +66,23 @@ const ourServices = [
 const legals = [
     {
         name: 'Privacy Policy',
+        name_jp: 'プライバシーポリシー',
         href: '/privacy-policy'
     },
     {
         name: 'Disclaimer',
+        name_jp: '免責事項',
         href: '/disclaimer'
     },
     {
         name: 'Use of This Site',
+        name_jp: 'このサイトの使用',
         href: '/use-of-site'
     }
 ]
 
 const Footer: React.FC = () => {
+    const { toggleLanguage } = useToggleLanguageConversion();
     return (
         <footer className="bg-white box-container pt-[32px] border-t text-dark">
             <div className="flex flex-col gap-5">
@@ -103,11 +118,19 @@ const Footer: React.FC = () => {
 
                     <div className='flex lg:justify-center'>
                         <div>
-                            <h4 className="font-semibold text-lg mb-2 text-[20px]">Useful Links</h4>
+                            <h4 className="font-semibold text-lg mb-2 text-[20px]">
+                                {toggleLanguage({
+                                    engTxt: 'Useful Links',
+                                    japTxt: '便利なリンク'
+                                })}
+                            </h4>
                             <ul className="text-[16px] space-y-2">
                                 {usefulLinks.map((link) => (
                                     <li key={link.name}>
-                                        <Link href={link.href} className="nav_link">{link.name}</Link>
+                                        <Link href={link.href} className="nav_link">{toggleLanguage({
+                                            engTxt: link.name,
+                                            japTxt: link.name_jp
+                                        })}</Link>
                                     </li>
                                 ))}
                             </ul>
@@ -116,11 +139,21 @@ const Footer: React.FC = () => {
 
                     <div className='flex lg:justify-center'>
                         <div>
-                            <h4 className="font-semibold text-lg mb-2 text-[20px]">Our Services</h4>
+                            <h4 className="font-semibold text-lg mb-2 text-[20px]">{
+                                toggleLanguage({
+                                    engTxt: 'Our Services',
+                                    japTxt: '私たちのサービス'
+                                })
+                            }</h4>
                             <ul className="text-[16px] space-y-2">
                                 {ourServices.map((link) => (
                                     <li key={link.name}>
-                                        <Link href={link.href} className="nav_link">{link.name}</Link>
+                                        <Link href={link.href} className="nav_link">{
+                                            toggleLanguage({
+                                                engTxt: link.name,
+                                                japTxt: link.name_jp
+                                            })
+                                        }</Link>
                                     </li>
                                 ))}
                             </ul>
@@ -129,17 +162,30 @@ const Footer: React.FC = () => {
 
                     <div className='flex lg:justify-center'>
                         <div>
-                            <h4 className="font-semibold text-lg mb-2 text-[20px]">Legal</h4>
+                            <h4 className="font-semibold text-lg mb-2 text-[20px]">{toggleLanguage({
+                                engTxt: 'Legal',
+                                japTxt: '法的'
+                            })}</h4>
                             <ul className="text-[16px] space-y-2">
                                 {legals.map((link) => (
                                     <li key={link.name}>
-                                        <Link href={link.href} className="nav_link">{link.name}</Link>
+                                        <Link href={link.href} className="nav_link">{
+                                            toggleLanguage({
+                                                engTxt: link.name,
+                                                japTxt: link.name_jp
+                                            })
+                                        }</Link>
                                     </li>
                                 ))}
-                              
+
                             </ul>
                             <div className="mt-4">
-                                <h5 className="font-bold text-[16px] mb-2">Follow Us</h5>
+                                <h5 className="font-bold text-[16px] mb-2">{
+                                    toggleLanguage({
+                                        engTxt: 'Follow Us',
+                                        japTxt: 'フォローする'
+                                    })
+                                }</h5>
                                 <div className="flex space-x-4">
                                     <a href="https://www.facebook.com/" target='_blank' className="w-[30px] h-[30px] transition-all delay-100 rounded-full flex items-center justify-center social-link-fb"><i className="fab fa-facebook"></i></a>
                                     <a href="viber://add?number=8109092469379" target='_blank' className="w-[30px] h-[30px] transition-all delay-100 rounded-full flex items-center justify-center social-link-viber"><i className="fab fa-viber"></i></a>
@@ -155,6 +201,7 @@ const Footer: React.FC = () => {
 
                 <div className="text-center p-3 text-[16px] text-gray-500 border-t">
                     © 2021 Global Pay Co., Ltd. All Rights Reserved.
+                    
                 </div>
             </div>
         </footer>
