@@ -15,7 +15,7 @@ const servicesData = [
         icon: <i className="fa-solid fa-passport"></i>,
     },
     {
-        title: "Support for Nepali Graduates",
+        title: "Support for Graduates",
         description: "Dedicated services for Nepali graduates seeking global career paths.",
         icon: <i className="fa-solid fa-user-graduate"></i>,
     },

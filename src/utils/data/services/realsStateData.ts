@@ -10,8 +10,9 @@ export const realsStateDataList: DetailType[] = [
     category: "Rental Assistance",
     category_jp: "賃貸支援",
     description:
-      "We provide end-to-end support in finding the perfect rental apartment in Japan. Whether it is a cozy studio in Tokyo or a spacious family home in Osaka, our team is here to help every step of the way.",
-    description_jp: "日本での手頃な賃貸物件を見つけるために尽力しています。手頃な賃貸アパートを見つけるためのエンドツーエンドサポートを提供します。",
+      "Our team is dedicated to helping you find the affordable rental property in Japan. We provide end-to-end support in finding the affordable rental apartment in Japan.",
+    description_jp:
+      "日本での手頃な賃貸物件を見つけるために尽力しています。手頃な賃貸アパートを見つけるためのエンドツーエンドサポートを提供します。",
     extraDescription: "",
     extraDescription_jp: "",
     image: "/assets/rental-assistance.jpeg",
@@ -29,8 +30,10 @@ export const realsStateDataList: DetailType[] = [
     category_jp: "賃貸支援",
     description:
       "Our services are designed to cater to clients from all over the world. We oﬀer multilingual support to ensure clear communication and a smooth rental process, regardless of your native language. Our team speaks English, Japanese, Nepali, Hindi and Chinese languages to assist you better.",
-    description_jp: "当社のサービスは、世界中のお客様に対応するために設計されています。母国語にかかわらず、明確なコミュニケーションとスムーズな賃貸プロセスを確保するために、多言語サポートを提供しています。当社のチームは、英語、日本語、ネパール語、ヒンディー語、中国語を話し、より良いサポートを行います。",
-    extraDescription: "We cater to a global clientele by offering dedicated multilingual support, ensuring every interaction is clear and every part of the rental process is smooth and hassle-free. Whether you’re a native speaker of English, Japanese, Nepali, Hindi, or Chinese, our team is well-prepared to communicate in your language, making it easier to understand options, ask questions, and feel fully supported. By bridging language barriers, we create a welcoming experience that feels personalized to each client's unique needs and background. Our goal is to provide a service that’s not only efficient but also considerate of linguistic preferences, enabling clients to make informed decisions with confidence and ease.",
+    description_jp:
+      "当社のサービスは、世界中のお客様に対応するために設計されています。母国語にかかわらず、明確なコミュニケーションとスムーズな賃貸プロセスを確保するために、多言語サポートを提供しています。当社のチームは、英語、日本語、ネパール語、ヒンディー語、中国語を話し、より良いサポートを行います。",
+    extraDescription:
+      "We cater to a global clientele by offering dedicated multilingual support, ensuring every interaction is clear and every part of the rental process is smooth and hassle-free. Whether you’re a native speaker of English, Japanese, Nepali, Hindi, or Chinese, our team is well-prepared to communicate in your language, making it easier to understand options, ask questions, and feel fully supported. By bridging language barriers, we create a welcoming experience that feels personalized to each client's unique needs and background. Our goal is to provide a service that’s not only efficient but also considerate of linguistic preferences, enabling clients to make informed decisions with confidence and ease.",
     extraDescription_jp: "",
     image: "/assets/multilnguage-support.jpg",
     icon: null,
@@ -47,7 +50,8 @@ export const realsStateDataList: DetailType[] = [
     category_jp: "賃貸支援",
     description:
       "With extensive experience and deep knowledge of the Japanese real estate market, we provide valuable insights and advice. We help navigate the complexities of renting in Japan, from understanding local rental agreements to finding properties that meet clients' budgets and lifestyles.",
-    description_jp: "日本の不動産市場についての豊富な経験と深い知識を活かし、貴重な洞察やアドバイスを提供します。日本の賃貸契約の理解から、クライアントの予算やライフスタイルに合った物件を見つけることまで、複雑な手続きをナビゲートします。",
+    description_jp:
+      "日本の不動産市場についての豊富な経験と深い知識を活かし、貴重な洞察やアドバイスを提供します。日本の賃貸契約の理解から、クライアントの予算やライフスタイルに合った物件を見つけることまで、複雑な手続きをナビゲートします。",
     extraDescription: "",
     extraDescription_jp: "",
     image: "/assets/expert-knowledge.webp",
@@ -65,7 +69,8 @@ export const realsStateDataList: DetailType[] = [
     category_jp: "雇用サービス",
     description:
       "We assist with negotiating rental terms and conditions to ensure you get the best deal possible. Our team also helps with the contract process, making sure all legal aspects are covered and understood.",
-    description_jp: "賃貸条件の交渉をサポートし、最良の取引を確保します。当社のチームは契約プロセスをサポートし、すべての法的側面がカバーされ理解されていることを確認します。",
+    description_jp:
+      "賃貸条件の交渉をサポートし、最良の取引を確保します。当社のチームは契約プロセスをサポートし、すべての法的側面がカバーされ理解されていることを確認します。",
     extraDescription: "",
     extraDescription_jp: "",
     image: "/assets/negotiation.jpg",
@@ -83,7 +88,8 @@ export const realsStateDataList: DetailType[] = [
     category_jp: "雇用サービス",
     description:
       "Our services don't end once you move in. We oﬀer post-move support to help you setle into your new home, including assistance with utility setup, local area orientation, and any other needs you may have.",
-    description_jp: "引っ越しが完了した後もサービスは続きます。新しい家に落ち着くための支援、公共料金の支払い設定、地域のオリエンテーションなど、他のニーズに対するサポートを提供します。",
+    description_jp:
+      "引っ越しが完了した後もサービスは続きます。新しい家に落ち着くための支援、公共料金の支払い設定、地域のオリエンテーションなど、他のニーズに対するサポートを提供します。",
     extraDescription: "",
     extraDescription_jp: "",
     image: "/assets/post-move.webp",
@@ -101,7 +107,8 @@ export const realsStateDataList: DetailType[] = [
     category_jp: "雇用サービス",
     description:
       "For those moving to Japan from abroad, we provide comprehensive relocation services. This includes everything from finding temporary accommodation to helping with the logistics of moving your belongings, ensuring a smooth transition to your new home.",
-    description_jp: "海外から日本へ移住する方のために、包括的な移住サービスを提供します。一時的な宿泊施設の確保から、所有物の移動に関する物流まで、スムーズな移行を確保します。",
+    description_jp:
+      "海外から日本へ移住する方のために、包括的な移住サービスを提供します。一時的な宿泊施設の確保から、所有物の移動に関する物流まで、スムーズな移行を確保します。",
     extraDescription: "",
     extraDescription_jp: "",
     image: "/assets/relocation.jpg",

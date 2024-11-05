@@ -7,12 +7,12 @@ const data = [
     {
         title: "Job Placement Expertise",
         description:
-            "We offer exceptional services and personalized support, guiding you every step of the way.",
+            " Empowering Your Career Journey We specialize in helping individuals residing in Japan find suitable job opportunities. Our team works closely with employers to match candidates with positions that align with their skills and career goals.",
     },
     {
-        title: "Personalized Career Counseling",
+        title: "Personalized Guidance and Support",
         description:
-            "We specialize in placing candidates in suitable roles, ensuring a smooth transition to employment.",
+            "We support each student based on their academic goals, career aspirations, and personal preferences. Our comprehensive services include selecting the right universities and courses, assisting with application processes, and guiding through visa requirements.",
     },
     {
         title: "Comprehensive SSW Visa Support",
@@ -20,9 +20,14 @@ const data = [
             "Our team assists you throughout the SSW visa process, from documentation to final placement.",
     },
     {
-        title: "Family Assistance",
+        title: "Comprehensive Rental Assistance",
         description:
-            "We provide ongoing support for your family during the transition, ensuring peace of mind.",
+            "Finding Your Ideal Rental in Japan, Hassle-Free. Our team is dedicated to helping you find the affordable rental property in Japan. We provide end-to-end support in finding the affordable rental apartment in Japan.",
+    },
+    {
+        title: "Airline Ticket Sales",
+        description:
+            "We sell airline tickets from Japan to any country, offering competitive pricing and exclusive deals to ensure our clients get the best value for their travel.",
     }
 ]
 
