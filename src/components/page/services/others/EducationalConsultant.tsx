@@ -18,7 +18,7 @@ const EducationalConsultant: React.FC = () => {
                 }
                 description={toggleLanguage({
                     engTxt: "Empowering students to navigate their path toward academic success on a global scale with personalized guidance and expertise.",
-                    japTxt: "日個別の指導と専門知識により、学生が世界規模で学業での成功に向けた道を進むことができるように支援します"
+                    japTxt: "個別の指導と専門知識により、学生が世界規模で学業での成功に向けた道を進むことができるように支援します"
                 }) as string || ""}
                 serviceData={educationalConsultantDataList}
                 pageType='educational'
