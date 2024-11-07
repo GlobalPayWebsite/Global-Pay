@@ -57,7 +57,19 @@ const banners = [
         "link": "/service/education-consulting",
         "imagePosition": "object-bottom"
     },
-
+    {
+        "heading": "Abroad Education",
+        "sub-heading": "Guidance",
+        "paragraph": "We assist students in pursuing their academic dreams abroad, providing support from university selection to visa processing. Your future starts here.",
+        "sub-tag": "Get started",
+        "heading_jp": "あなたのグローバル",
+        "sub-heading_jp": "パートナー",
+        "paragraph_jp": "Global Pay Co., Ltd. では、人材採用、不動産、教育コンサルティングにわたるシームレスなソリューションを提供しています。お客様のニーズに合わせたサービスで、成功への道をお手伝いいたします",
+        "sub-tag_jp": "当社のサービスを探索する",
+        "image": "https://splendid-hr.com/wp-content/uploads/2023/10/Human-Resource-Services.jpg",
+        "link": "/service/education-consulting",
+        "imagePosition": "object-bottom"
+    },
 ]
 
 

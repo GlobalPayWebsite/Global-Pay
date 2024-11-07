@@ -1,59 +1,66 @@
 "use client";
-import React from 'react'
-import { motion } from 'framer-motion'
-const services = [
-    {
-        icon: <i className="fa-solid fa-address-book" />,
-        title: "Address",
-        description: "1-chome 20-17 Hyakunincho, Shinjuku City, Tokyo 169-0073",
-    },
-    {
-        icon: <i className="fa-regular fa-envelope" />,
-        title: "Email",
-        description: "info@globalpay.co.jp",
-    },
-    {
-        icon: <i className="fa-solid fa-phone" />,
-        title: "Contact",
-        description: (
-            <div className='flex flex-col items-center gap-2'>
-                <div className='flex items-center gap-1'>
-                    <span>Call Us:</span>
-                    <span>+81 03-6687-7736</span>
-                </div>
-                <div className='flex items-center gap-1'>
-                    <span>WhatsApp:</span>
-                    <span>+81 90-9246-9379</span>
-                </div>
-                <div className='flex items-center gap-1'>
-                    <span>Viber:</span>
-                    <span>+81 90-9246-9379</span>
-                </div>
-            </div>
-        ),
-    },
-    {
-        icon: <i className="fa-solid fa-business-time" />,
-        title: "Bussiness Hour",
-        description: (
-            <div className='flex-row items-center gap-2'>
-                <div className='items-center gap-1'>
-                    <div>Monday - Friday</div>
-                    <div>10:00 am - 7:00 pm</div>
-                    <div>Saturday & Sunday (Closed)</div>
-                </div>
-            </div>
-        ),
-    }
-];
+import React from 'react';
+import { motion } from 'framer-motion';
+import { useToggleLanguageConversion } from '@/utils/hooks/hooks';
 
 
 const Contact = () => {
     const [mounted, setMounted] = React.useState(false);
+    const { toggleLanguage } = useToggleLanguageConversion();
     React.useEffect(() => {
         setMounted(true)
     }, [])
     if (!mounted) return null;
+
+    const services = [
+        {
+            icon: <i className="fa-solid fa-address-book" />,
+            title: "Address",
+            description: toggleLanguage({
+                engTxt: "1-chome 20-17 Hyakunincho, Shinjuku City, Tokyo 169-0073",
+                japTxt: "〒169-0073-2東京都新宿区百人町10-17 星野ビル101号室"
+            }),
+        },
+        {
+            icon: <i className="fa-regular fa-envelope" />,
+            title: "Email",
+            description: "info@globalpay.co.jp",
+        },
+        {
+            icon: <i className="fa-solid fa-phone" />,
+            title: "Contact",
+            description: (
+                <div className='flex flex-col items-center gap-2'>
+                    <div className='flex items-center gap-1'>
+                        <span>Call Us:</span>
+                        <span>+81 03-6687-7736</span>
+                    </div>
+                    <div className='flex items-center gap-1'>
+                        <span>WhatsApp:</span>
+                        <span>+81 90-9246-9379</span>
+                    </div>
+                    <div className='flex items-center gap-1'>
+                        <span>Viber:</span>
+                        <span>+81 90-9246-9379</span>
+                    </div>
+                </div>
+            ),
+        },
+        {
+            icon: <i className="fa-solid fa-business-time" />,
+            title: "Bussiness Hour",
+            description: (
+                <div className='flex-row items-center gap-2'>
+                    <div className='items-center gap-1'>
+                        <div>Monday - Friday</div>
+                        <div>10:00 am - 7:00 pm</div>
+                        <div>Saturday & Sunday (Closed)</div>
+                    </div>
+                </div>
+            ),
+        }
+    ];
+
     return (
         <div className='box-container py-[64px] flex flex-col gap-5'>
             <div className="grid grid-cols-1 lg:grid-cols-4 gap-6">

@@ -106,8 +106,15 @@ const Footer: React.FC = () => {
                         </div>
                         <div>
                             <p className="text-[16px]">
-                                1-chome 20-17 Hyakunincho <br />
-                                Shinjuku City, Tokyo 169-0073
+                                {toggleLanguage({
+                                    engTxt: '1-chome 20-17 Hyakunincho',
+                                    japTxt: " 〒169-0073"
+                                })}
+                                <br />
+                                {toggleLanguage({
+                                    engTxt: 'Shinjuku City, Tokyo 169-0073',
+                                    japTxt: "-2東京都新宿区百人町10-17 星野ビル101号室"
+                                })}
                             </p>
                             <p className="mt-2">
                                 <i className="text-theme fa-solid fa-phone pe-1" /> 03-6687-7736 <br />
@@ -201,7 +208,7 @@ const Footer: React.FC = () => {
 
                 <div className="text-center p-3 text-[16px] text-gray-500 border-t">
                     © 2021 Global Pay Co., Ltd. All Rights Reserved.
-                    
+
                 </div>
             </div>
         </footer>
