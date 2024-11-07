@@ -49,17 +49,6 @@ export const LanguageButton = () => {
 
     return (
         <div className="flex items-center gap-5 text-xs">
-            <button onClick={() => handleLangClick("en")} className="flex items-center space-x-2">
-                <Image
-                    src="/assets/en.png"
-                    alt="English"
-                    className="w-4 h-4 object-cover"
-                    width={10}
-                    height={10}
-                    unoptimized
-                />
-                <span className={`${lang == "en" ? "text-black font-extrabold" : "text-gray-700"}`}>English</span>
-            </button>
             <button onClick={() => handleLangClick("jp")} className="flex items-center space-x-2">
                 <Image
                     src="/assets/jp.png"
@@ -70,6 +59,17 @@ export const LanguageButton = () => {
                     unoptimized
                 />
                 <span className={`${lang == "jp" ? "text-black font-extrabold" : "text-gray-700"}`}>日本語 (Japanese)</span>
+            </button>
+            <button onClick={() => handleLangClick("en")} className="flex items-center space-x-2">
+                <Image
+                    src="/assets/en.png"
+                    alt="English"
+                    className="w-4 h-4 object-cover"
+                    width={10}
+                    height={10}
+                    unoptimized
+                />
+                <span className={`${lang == "en" ? "text-black font-extrabold" : "text-gray-700"}`}>English</span>
             </button>
         </div>
     );

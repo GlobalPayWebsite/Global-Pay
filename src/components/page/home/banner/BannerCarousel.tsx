@@ -13,11 +13,7 @@ import { useToggleLanguageConversion } from '@/utils/hooks/hooks';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
 
-
-
-
 const banners = [
-
     {
         "heading": "Your Global",
         "sub-heading": "Partner",
@@ -32,6 +28,19 @@ const banners = [
         "imagePosition": "object-top"
     },
     {
+        "heading": "Recruitment",
+        "sub-heading": "Service",
+        "paragraph": "We connect skilled professionals with opportunities that align with their career goals and ambitions. Our team provides end-to-end support, from job matching to onboarding, helping individuals find roles that advance their careers and fulfill employer needs.",
+        "sub-tag": "Get started",
+        "heading_jp": "採用サービス",
+        "sub-heading_jp": "サービス",
+        "paragraph_jp": "私たちは、キャリア目標や意欲に合った機会と才能あるプロフェッショナルを結びつけるお手伝いをしています。求職者と企業のニーズを満たす役割を見つけ、就職活動から雇用手続きに至るまで、包括的なサポートを提供しています。",
+        "sub-tag_jp": "始める",
+        "image": "https://splendid-hr.com/wp-content/uploads/2023/10/Human-Resource-Services.jpg",
+        "link": "/service/recruitment",
+        "imagePosition": "object-bottom"
+    },
+    {
         "heading": "Real Estate",
         "sub-heading": "Business",
         "paragraph": "Find your perfect home in Japan with our expert real estate consultancy. From cozy rentals to spacious family homes, we provide personalized, multilingual support to meet your needs.",
@@ -41,7 +50,7 @@ const banners = [
         "paragraph_jp": "Global Pay Co., Ltd. では、人材採用、不動産、教育コンサルティングにわたるシームレスなソリューションを提供しています。お客様のニーズに合わせたサービスで、成功への道をお手伝いいたします",
         "sub-tag_jp": "当社のサービスを探索する",
         "image": "/assets/realstate.png",
-        "link": "/service/real-estate",
+        "link": "/service/realstate-consultant",
         "imagePosition": "object-center"
     },
     {
@@ -54,22 +63,9 @@ const banners = [
         "paragraph_jp": "Global Pay Co., Ltd. では、人材採用、不動産、教育コンサルティングにわたるシームレスなソリューションを提供しています。お客様のニーズに合わせたサービスで、成功への道をお手伝いいたします",
         "sub-tag_jp": "当社のサービスを探索する",
         "image": "https://ukvisasuccess.com/wp-content/uploads/2020/10/student-graduation-scaled.jpg",
-        "link": "/service/education-consulting",
+        "link": "/service/educational-consultant",
         "imagePosition": "object-bottom"
-    },
-    {
-        "heading": "Abroad Education",
-        "sub-heading": "Guidance",
-        "paragraph": "We assist students in pursuing their academic dreams abroad, providing support from university selection to visa processing. Your future starts here.",
-        "sub-tag": "Get started",
-        "heading_jp": "あなたのグローバル",
-        "sub-heading_jp": "パートナー",
-        "paragraph_jp": "Global Pay Co., Ltd. では、人材採用、不動産、教育コンサルティングにわたるシームレスなソリューションを提供しています。お客様のニーズに合わせたサービスで、成功への道をお手伝いいたします",
-        "sub-tag_jp": "当社のサービスを探索する",
-        "image": "https://splendid-hr.com/wp-content/uploads/2023/10/Human-Resource-Services.jpg",
-        "link": "/service/education-consulting",
-        "imagePosition": "object-bottom"
-    },
+    }
 ]
 
 
