@@ -33,7 +33,7 @@ const DetailsFeedCard = ({ details, pageType }: DetailsFeedCardProps) => {
                         }
                     }}>
                         <button className="text-black border gap-2 border-blue-500 hover:border-green-500 rounded-md px-5 py-1 text-sm">
-                            <span>{t("Read More")}</span>
+                            <span>{t("Details")}</span>
                         </button>
                     </Link>
                     {details?.isNews && <div className='text-yellow-600'>{details?._createdAt?.toString() || ""}</div>}

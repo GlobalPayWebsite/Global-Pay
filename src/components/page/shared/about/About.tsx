@@ -72,7 +72,7 @@ const AboutUs: React.FC = () => {
                                 <div>
                                     <h4 className="text-lg font-semibold">
                                         {toggleLanguage({
-                                            engTxt: "Call Us",
+                                            engTxt: "Tel",
                                             japTxt: "電話"
                                         })}
                                     </h4>
@@ -99,7 +99,7 @@ const AboutUs: React.FC = () => {
                             />
                         </motion.div>
 
-                        <motion.button
+                        {/* <motion.button
                             className="w-fit bg-theme text-white px-6 py-2 rounded-md text-lg"
                             whileHover={{ scale: 1.05 }}
                             transition={{ type: 'spring', stiffness: 300 }}
@@ -108,7 +108,7 @@ const AboutUs: React.FC = () => {
                                 engTxt: "Discover Now",
                                 japTxt: "今すぐ発見"
                             })}</a>
-                        </motion.button>
+                        </motion.button> */}
                     </div>
                 </motion.div>
 

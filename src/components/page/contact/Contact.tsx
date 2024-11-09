@@ -18,7 +18,7 @@ const Contact = () => {
             title: "Address",
             description: toggleLanguage({
                 engTxt: "1-chome 20-17 Hyakunincho, Shinjuku City, Tokyo 169-0073",
-                japTxt: "〒169-0073-2東京都新宿区百人町10-17 星野ビル101号室"
+                japTxt: "東京都新宿区百人町１－２０－１７　星野ビル１０１号室 "
             }),
         },
         {
@@ -32,7 +32,7 @@ const Contact = () => {
             description: (
                 <div className='flex flex-col items-center gap-2'>
                     <div className='flex items-center gap-1'>
-                        <span>Call Us:</span>
+                        <span>Tel:</span>
                         <span>+81 03-6687-7736</span>
                     </div>
                     <div className='flex items-center gap-1'>
@@ -48,13 +48,23 @@ const Contact = () => {
         },
         {
             icon: <i className="fa-solid fa-business-time" />,
-            title: "Bussiness Hour",
-            description: (
+            title: "Bussiness Hours",
+            description:  (
                 <div className='flex-row items-center gap-2'>
                     <div className='items-center gap-1'>
-                        <div>Monday - Friday</div>
+                        <div>
+                            {toggleLanguage({
+                                engTxt: "Monday - Friday",
+                                japTxt: "月曜日～金曜日"
+                            })}
+                            </div>
                         <div>10:00 am - 7:00 pm</div>
-                        <div>Saturday & Sunday (Closed)</div>
+                        <div>
+                            {toggleLanguage({
+                                engTxt: "Saturday & Sunday (Closed)",
+                                japTxt: "土曜日、日曜日（休み）"
+                            })}
+                            </div>
                     </div>
                 </div>
             ),

@@ -3,6 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link';
 import { usePathname } from 'next/navigation'
 import React from 'react'
+import { useToggleLanguageConversion } from '@/utils/hooks/hooks';
 
 const getUrl = (arr: string[]) => {
     console.log("arr ", arr)
@@ -16,6 +17,8 @@ const getUrl = (arr: string[]) => {
 const BreadCrumb = () => {
     const pathname = usePathname();
     const paths = pathname.split("/");
+    const { toggleLanguage } = useToggleLanguageConversion();
+
     return (
         <div className='relative'>
             <div className='w-full h-[220px]'>
@@ -24,7 +27,12 @@ const BreadCrumb = () => {
                         <div className='flex flex-col items-center gap-2'>
                             <h1 className='text-4xl capitalize'>{paths[1] || ""}</h1>
                             <div className='flex items-center gap-2 font-semibold'>
-                                <Link href='/'>Home</Link>
+                                <Link href='/'>
+                                    {toggleLanguage({
+                                        engTxt: "Home",
+                                        japTxt: "ホーム"
+                                    })}
+                                    </Link>
                                 {paths.map((item, index) => (
                                     <>
                                         {item != "" && <div key={index} className='flex items-center gap-2'>

@@ -32,7 +32,8 @@ export const navLinks: NavLink[] = [
     name: 'Services', href: '/service', dropdownLinks: [
       { name: 'Recruitment', href: '/service/recruitment' },
       { name: 'SSW', href: '/service/ssw' },
-      { name: 'Other Services', href: '/service/others' },
+      { name: 'Our Services', href: '/service/others' },
+      { name: 'Other Services', href: '/service/others' },// include both solomon and halal food where solomon as same as before and halal food details provided
       { name: 'Solomon Capital japan inc.', href: '/service/solomoncapital' },
     ]
   },

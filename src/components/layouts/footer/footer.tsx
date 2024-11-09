@@ -25,7 +25,7 @@ const usefulLinks = [
     // },
     {
         name: 'Contact Us',
-        name_jp: '連絡先',
+        name_jp: 'お問い合わせ',
         href: '/contact'
     },
     {
@@ -43,22 +43,22 @@ const ourServices = [
     },
     {
         name: 'SSW',
-        name_jp: '熟練労働者',
+        name_jp: '特定技能労働者',
         href: '/service/ssw'
     },
     {
         name: 'Real Estate Consultant',
-        name_jp: '不動産',
+        name_jp: '不動産コンサルタント',
         href: '/service/realstate-consultant'
     },
     {
         name: 'Educational Consultant',
-        name_jp: '教育',
+        name_jp: '教育コンサルタント',
         href: '/service/educational-consultant'
     },
     {
         name: 'Travel Consultant',
-        name_jp: '旅行',
+        name_jp: '旅行コンサルタント',
         href: '/service/travel-consultant'
     }
 ]
@@ -113,7 +113,7 @@ const Footer: React.FC = () => {
                                 <br />
                                 {toggleLanguage({
                                     engTxt: 'Shinjuku City, Tokyo 169-0073',
-                                    japTxt: "-2東京都新宿区百人町10-17 星野ビル101号室"
+                                    japTxt: "東京都新宿区百人町1-20-17 星野ビル101号室"
                                 })}
                             </p>
                             <p className="mt-2">
@@ -149,7 +149,7 @@ const Footer: React.FC = () => {
                             <h4 className="font-semibold text-lg mb-2 text-[20px]">{
                                 toggleLanguage({
                                     engTxt: 'Our Services',
-                                    japTxt: '私たちのサービス'
+                                    japTxt: '当社のサービス'
                                 })
                             }</h4>
                             <ul className="text-[16px] space-y-2">
@@ -190,7 +190,7 @@ const Footer: React.FC = () => {
                                 <h5 className="font-bold text-[16px] mb-2">{
                                     toggleLanguage({
                                         engTxt: 'Follow Us',
-                                        japTxt: 'フォローする'
+                                        japTxt: '当社をフォローしてください'
                                     })
                                 }</h5>
                                 <div className="flex space-x-4">

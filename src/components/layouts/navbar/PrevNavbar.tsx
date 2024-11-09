@@ -31,6 +31,7 @@ const navLinks: NavLink[] = [
   {
     name: 'Services', href: '/service', dropdownLinks: [
       { name: 'Recruitment', href: '/service/recruitment' },
+      { name: 'Our Services', href: '/service/others' },
       { name: 'Other Services', href: '/service/others' },
       { name: 'Immigration Lawyer', href: '/service/immigration' },
     ]
