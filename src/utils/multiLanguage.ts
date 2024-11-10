@@ -16,6 +16,8 @@ const resources = {
       "Contact": "連絡先",
       "Solomon Capital": "ソロモンキャピタル",
       "SSW": "熟練労働者",
+      "Our Services": "当社のサービス",
+      "Solomon Capital japan inc.": "ソロモンキャピタルジャパン株式会社",
     },
   },
 }

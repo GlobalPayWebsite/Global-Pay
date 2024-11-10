@@ -43,7 +43,7 @@ const Footer: React.FC = () => {
                                 <li><Link href="/" className="hover:underline text-[#555555]">Home</Link></li>
                                 <li><Link href="/about-us" className="hover:underline text-[#555555]">About Us</Link></li>
                                 <li><Link href="/service/recruitment" className="hover:underline text-[#555555]">Recruitment Service</Link></li>
-                                <li><Link href="/service/others" className="hover:underline text-[#555555]">Other Services</Link></li>
+                                <li><Link href="/service/ourservice" className="hover:underline text-[#555555]">Other Services</Link></li>
                                 <li><Link href="/contact" className="hover:underline text-[#555555]">Contact Us</Link></li>
                                 <li><Link href="/companyprofile" className="hover:underline text-[#555555]">Company Profile</Link></li>
                             </ul>
@@ -55,10 +55,10 @@ const Footer: React.FC = () => {
                             <h4 className="font-semibold text-lg mb-2 text-[20px]">Our Services</h4>
                             <ul className="text-[16px] space-y-2">
                                 <li><Link href="/service/recruitment" className="hover:underline text-[#555555]">Recruitment</Link></li>
-                                <li><Link href="/service/others" className="hover:underline text-[#555555]">SSW</Link></li>
-                                <li><Link href="/service/others" className="hover:underline text-[#555555]">Real Estate Consultant</Link></li>
-                                <li><Link href="/service/others" className="hover:underline text-[#555555]">Educational Consultant</Link></li>
-                                <li><Link href="/service/others" className="hover:underline text-[#555555]">Travel Consultant</Link></li>
+                                <li><Link href="/service/ourservice" className="hover:underline text-[#555555]">SSW</Link></li>
+                                <li><Link href="/service/ourservice" className="hover:underline text-[#555555]">Real Estate Consultant</Link></li>
+                                <li><Link href="/service/ourservice" className="hover:underline text-[#555555]">Educational Consultant</Link></li>
+                                <li><Link href="/service/ourservice" className="hover:underline text-[#555555]">Travel Consultant</Link></li>
                             </ul>
                         </div>
                     </div>
