@@ -33,6 +33,7 @@ export const navLinks: NavLink[] = [
       { name: 'Recruitment', href: '/service/recruitment' },
       { name: 'SSW', href: '/service/ssw' },
       { name: 'Our Services', href: '/service/ourservice' },
+      { name: 'Other Services', href: '/service/other' },
       { name: 'Solomon Capital japan inc.', href: '/service/solomoncapital' },
     ]
   },
