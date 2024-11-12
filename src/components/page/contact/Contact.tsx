@@ -15,7 +15,10 @@ const Contact = () => {
     const services = [
         {
             icon: <i className="fa-solid fa-address-book" />,
-            title: "Address",
+            title: toggleLanguage({
+                engTxt: "Address",
+                japTxt: "住所"
+            }), 
             description: toggleLanguage({
                 engTxt: "1-chome 20-17 Hyakunincho, Shinjuku City, Tokyo 169-0073",
                 japTxt: "東京都新宿区百人町１－２０－１７　星野ビル１０１号室 "
@@ -23,12 +26,18 @@ const Contact = () => {
         },
         {
             icon: <i className="fa-regular fa-envelope" />,
-            title: "Email",
+            title: toggleLanguage({
+                engTxt: "Email",
+                japTxt: "電子メール"
+            }),
             description: "info@globalpay.co.jp",
         },
         {
             icon: <i className="fa-solid fa-phone" />,
-            title: "Contact",
+            title: toggleLanguage({
+                engTxt: "Contact",
+                japTxt: "接触"
+            }),
             description: (
                 <div className='flex flex-col items-center gap-2'>
                     <div className='flex items-center gap-1'>
@@ -48,7 +57,11 @@ const Contact = () => {
         },
         {
             icon: <i className="fa-solid fa-business-time" />,
-            title: "Bussiness Hours",
+            title:toggleLanguage({
+                    engTxt: "Business Hours",
+                japTxt: "営業時間"
+                            }),
+            // "Business Hours",
             description:  (
                 <div className='flex-row items-center gap-2'>
                     <div className='items-center gap-1'>

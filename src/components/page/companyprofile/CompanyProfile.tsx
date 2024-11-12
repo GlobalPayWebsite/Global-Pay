@@ -36,7 +36,7 @@ const CompanyProfile: React.FC = () => {
                         
                         {toggleLanguage({
                             engTxt: "Headquarters:",
-                            japTxt: "本社所在地"
+                            japTxt: "本社所在地:"
                         })}
                     </strong>
                         {toggleLanguage({
@@ -58,7 +58,7 @@ const CompanyProfile: React.FC = () => {
                     <p className="text-sm"><strong>
                         {toggleLanguage({
                             engTxt: "Representative:",
-                            japTxt: "代表者"
+                            japTxt: "代表者:"
                         })}
                         </strong>
                         {toggleLanguage({
