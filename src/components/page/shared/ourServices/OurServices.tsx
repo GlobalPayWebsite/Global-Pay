@@ -90,7 +90,7 @@ const servicesData: ServiceData[] = [
     {
         title: "Family Support for SSW (ii) Holders",
         title_jp: "SSW（ii）保持者の家族サポート",
-        description: "Family Support for SSW (ii) Holders",
+        description: "Family Support for SSW (ii) Holders.",
         description_jp: "SSW(ii)保有者向けファミリーサポート",
         icon: <i className="fa-solid fa-home"></i>,
     },

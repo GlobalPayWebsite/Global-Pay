@@ -18,11 +18,19 @@ const Contact = () => {
             title: toggleLanguage({
                 engTxt: "Address",
                 japTxt: "住所"
-            }), 
-            description: toggleLanguage({
-                engTxt: "1-chome 20-17 Hyakunincho, Shinjuku City, Tokyo 169-0073",
-                japTxt: "東京都新宿区百人町１－２０－１７　星野ビル１０１号室 "
             }),
+            description:
+                <div className='flex flex-col items-center gap-2'>
+                    <div className='flex items-center gap-1'>
+                        {toggleLanguage({
+                            engTxt: "1-chome 20-17 Hyakunincho, Shinjuku City, Tokyo 169-0073",
+                            japTxt: "東京都新宿区百人町１－２０－１７　星野ビル１０１号室 "
+                        })},
+                    </div>
+                    <div className='flex items-center gap-1'>
+                        <a href='/' target='_blank' className='underline font-bold'>www.globalpay.co.jp</a>
+                    </div>
+                </div>
         },
         {
             icon: <i className="fa-regular fa-envelope" />,
@@ -36,7 +44,7 @@ const Contact = () => {
             icon: <i className="fa-solid fa-phone" />,
             title: toggleLanguage({
                 engTxt: "Contact",
-                japTxt: "接触"
+                japTxt: "お問い合わせ"
             }),
             description: (
                 <div className='flex flex-col items-center gap-2'>
@@ -57,12 +65,12 @@ const Contact = () => {
         },
         {
             icon: <i className="fa-solid fa-business-time" />,
-            title:toggleLanguage({
-                    engTxt: "Business Hours",
+            title: toggleLanguage({
+                engTxt: "Business Hours",
                 japTxt: "営業時間"
-                            }),
+            }),
             // "Business Hours",
-            description:  (
+            description: (
                 <div className='flex-row items-center gap-2'>
                     <div className='items-center gap-1'>
                         <div>
@@ -70,14 +78,14 @@ const Contact = () => {
                                 engTxt: "Monday - Friday",
                                 japTxt: "月曜日～金曜日"
                             })}
-                            </div>
+                        </div>
                         <div>10:00 am - 7:00 pm</div>
                         <div>
                             {toggleLanguage({
                                 engTxt: "Saturday & Sunday (Closed)",
                                 japTxt: "土曜日、日曜日（休み）"
                             })}
-                            </div>
+                        </div>
                     </div>
                 </div>
             ),
