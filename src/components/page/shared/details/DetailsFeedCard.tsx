@@ -4,14 +4,14 @@ import { DetailType, PageType } from '@/typing';
 import { useToggleLanguageConversion } from '@/utils/hooks/hooks';
 import Image from 'next/image';
 import Link from 'next/link';
-import { useTranslation } from 'react-i18next';
+// import { useTranslation } from 'react-i18next';
 interface DetailsFeedCardProps {
     details: DetailType;
     pageType: PageType;
 }
 
 const DetailsFeedCard = ({ details, pageType }: DetailsFeedCardProps) => {
-    const { t } = useTranslation();
+    // const { t } = useTranslation();
     const { toggleLanguage } = useToggleLanguageConversion();
     return (
         <div className='w-full'>

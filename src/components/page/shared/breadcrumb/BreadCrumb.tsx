@@ -28,11 +28,11 @@ const BreadCrumb = () => {
                             <h1 className='text-4xl capitalize'>{paths[1] || ""}</h1>
                             <div className='flex items-center gap-2 font-semibold'>
                                 <Link href='/'>
-                                    {toggleLanguage({
+                                    {/* {toggleLanguage({
                                         engTxt: "Home",
                                         japTxt: "ホーム"
-                                    })}
-                                    </Link>
+                                    })} */}
+                                    Home</Link>
                                 {paths.map((item, index) => (
                                     <>
                                         {item != "" && <div key={index} className='flex items-center gap-2'>
