@@ -34,7 +34,7 @@ export const navLinks: NavLink[] = [
       { name: 'SSW', href: '/service/ssw' },
       { name: 'Our Services', href: '/service/ourservice' },
       { name: 'Other Services', href: '/service/other' },
-      { name: 'Solomon Capital japan inc.', href: '/service/solomoncapital' },
+      // { name: 'Solomon Capital japan inc.', href: '/service/solomoncapital' },
     ]
   },
   { name: 'Contact', href: '/contact' }

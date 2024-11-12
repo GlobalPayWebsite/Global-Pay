@@ -25,7 +25,12 @@ const DetailsFeedCard = ({ details, pageType }: DetailsFeedCardProps) => {
                             engTxt: details?.title || "",
                             japTxt: details?.title_jp || ""
                         }) || ""}</h2>
-                        {details?.subtitle && <p className='text-gray-500 text-xs'>{details?.subtitle}</p>}
+                        {details?.subtitle && <p className='text-gray-500 text-xs'>
+                            {toggleLanguage({
+                                engTxt: details?.subtitle || "",
+                                japTxt: details?.subtitle_jp || ""
+                            }) || ""}
+                            </p>}
                     </div>
                     <Link href={{
                         pathname: `/${pageType}`, query: {
@@ -33,7 +38,12 @@ const DetailsFeedCard = ({ details, pageType }: DetailsFeedCardProps) => {
                         }
                     }}>
                         <button className="text-black border gap-2 border-blue-500 hover:border-green-500 rounded-md px-5 py-1 text-sm">
-                            <span>{t("Details")}</span>
+                            <span>
+                                {toggleLanguage({
+                                    engTxt: "Details",
+                                    japTxt: "詳細"
+                                })}
+                            </span>
                         </button>
                     </Link>
                     {details?.isNews && <div className='text-yellow-600'>{details?._createdAt?.toString() || ""}</div>}

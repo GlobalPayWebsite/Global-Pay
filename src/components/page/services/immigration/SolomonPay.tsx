@@ -7,7 +7,7 @@ import React from 'react';
 const SolomonPay: React.FC = () => {
     const { toggleLanguage } = useToggleLanguageConversion();
     return (
-        <div className='box-container py-[64px]'>
+        <div className='bg-background box-container py-[64px]'>
 
             <div className='flex flex-col gap-5'>
                 <div className='flex flex-col gap-1 items-center'>
@@ -30,7 +30,7 @@ const SolomonPay: React.FC = () => {
                             japTxt: "ソロモンキャピタルジャパン株式会社"
                         })}.</h1>
                         <h1 className="text-4xl md:text-5xl font-bold mb-4 text-zinc-50	">{toggleLanguage({
-                            engTxt: "COMMING SOON !!!!",
+                            engTxt: "COMING SOON !",
                             japTxt: "近日公開！！！"
                         })}</h1>
                         <p className="text-lg mb-8 text-zinc-50	">{toggleLanguage({

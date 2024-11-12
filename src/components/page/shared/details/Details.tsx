@@ -25,7 +25,10 @@ const Details = ({ details, detailsList, pageType }: DetailsProps) => {
                                 <h2 style={{ margin: 0 }} className='my-2 text-4xl font-semibold'>
                                     {toggleLanguage({ engTxt: details?.title, japTxt: details?.title_jp }) || ""}
                                 </h2>
-                                {details?.subtitle && <p className='text-gray-500'>{details?.subtitle}</p>}
+                                {details?.subtitle && <p className='text-gray-500'>
+                                    {toggleLanguage({ engTxt: details?.subtitle, japTxt: details?.subtitle_jp }) || ""}
+                                    {/* {details?.subtitle} */}
+                                </p>}
                             </div>
                             <div className='mt-5 flex flex-col items-start justify-between gap-5'>
                                 <IntroCard showDate={details?.isNews} date={details?._createdAt?.toString() || ""} title={toggleLanguage({
@@ -82,7 +85,11 @@ const Details = ({ details, detailsList, pageType }: DetailsProps) => {
 
                     <div className='w-full flex flex-col items-center justify-between gap-5 sm:gap-3 flex-1'>
                         <div className='w-full mb-5'>
-                            {detailsList?.length > 1 && <h1 className='text-3xl font-semibold'>{toggleLanguage({ i18Txt: "Related Topics" })}</h1>}
+                            {detailsList?.length > 1 && <h1 className='text-3xl font-semibold'>{toggleLanguage({
+                                // i18Txt: "Related Topics",
+                                engTxt: "Related Topics",
+                                japTxt: "関連トピック"
+                            })}</h1>}
                         </div>
                         <div className=" lg:max-h-[700px] overflow-y-auto w-full flex flex-col items-center justify-between gap-5 sm:gap-3 flex-1">
                             {detailsList?.filter(item => item._id !== details?._id)?.map((item) => (
