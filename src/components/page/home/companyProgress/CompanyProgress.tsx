@@ -21,21 +21,23 @@ import { useToggleLanguageConversion } from '@/utils/hooks/hooks';
 
 const data = [
     {
-        title: "Satified Clients",
-        title_jp: "満足したクライアント数",
+        title: "Positive Reviews",
+        title_jp: "満足の声",
         count: 125,
-        icon: <i className="fas fa-users stat-icon fa-1x" />
+        icon: <i className="fas review-icon fas fa-star review-icon" />,
+        icon1: <i className="fas review-icon fas fa-star review-icon" />,
+        icon2: <i className="fas review-icon fas fa-star review-icon" />
     },
     {
-        title: "Projects Completed",
-        title_jp: "完了したプロジェクト数",
-        count: 103,
-        icon: <i className="fas fa-tasks stat-icon fa-1x" />
+        title: "Community Engagement",
+        title_jp: "地域社会との関わり",
+        count: 37,
+        icon: <i className="fas fa-users stat-icon fa-1x" />,
     },
     {
-        title: "Hours Saved",
-        title_jp: "節約された時間",
-        count: 178,
+        title: "Business Partners",
+        title_jp: "ビジネスパートナー",
+        count: 106,
         icon: <i className="fas fa-calendar-alt stat-icon fa-1x" />
     }
 ]
@@ -81,7 +83,7 @@ const CompanyProgress: React.FC = () => {
                     >
                         <div>
                             <span className='text-3xl'>
-                                {item.icon}
+                                {item.icon} {item.icon1} {item.icon2} {item.icon2} {item.icon2}
                             </span>
                         </div>
                         <div className="text-6xl font-bold">
