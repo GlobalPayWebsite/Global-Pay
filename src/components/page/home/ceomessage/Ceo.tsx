@@ -59,7 +59,7 @@ const CeoMessage: React.FC<CeoMessageProps> = ({ bg = false }) => {
             <h1 className='text-center text-lg font-semibold'>
               {toggleLanguage({
                 engTxt: "CEO Nabin Neure",
-                japTxt: "ナビン・ヌレ"
+                japTxt: "ニウレ ナビン"
               })}
 
             </h1>
