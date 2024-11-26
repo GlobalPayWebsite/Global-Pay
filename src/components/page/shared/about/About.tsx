@@ -8,7 +8,7 @@ import { useToggleLanguageConversion } from '@/utils/hooks/hooks';
 const aboutUsData = {
     title: "About Us",
     title_jp: "当社について",
-    sub_title: "Don’t miss the chance connect with us today!",
+    sub_title: "Don’t miss the chance to connect with us today!",
     sub_title_jp: "今日、当社とつながるチャンスをお見逃しなく",
     description: "We offer expert consulting services in recruitment, SSW visas, real estate, education, and travel, providing personalized support and guidance tailored to each client's needs.",
     description_jp: "「当社は、雇用、SSWビザ、不動産、教育、旅行における専門的なコンサルティングサービスを提供しており、各クライアントのニーズに合わせたパーソナライズされたサポートとガイダンスを行っています。」",
