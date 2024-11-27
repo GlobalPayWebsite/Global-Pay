@@ -32,7 +32,7 @@ const banners = [
         "sub-heading": "Service",
         "paragraph": "We connect skilled professionals with opportunities that align with their career goals and ambitions. Our team provides end-to-end support, from job matching to onboarding, helping individuals find roles that advance their careers and fulfill employer needs.",
         "sub-tag": "Get started",
-        "heading_jp": "採用サービス",
+        "heading_jp": "採用",
         "sub-heading_jp": "サービス",
         "paragraph_jp": "私たちは、キャリア目標や意欲に合った機会と才能あるプロフェッショナルを結びつけるお手伝いをしています。求職者と企業のニーズを満たす役割を見つけ、就職活動から雇用手続きに至るまで、包括的なサポートを提供しています。",
         "sub-tag_jp": "始める",
