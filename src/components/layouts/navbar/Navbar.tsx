@@ -32,9 +32,9 @@ export const navLinks: NavLink[] = [
     name: 'Services', href: '/service', dropdownLinks: [
       { name: 'Recruitment', href: '/service/recruitment' },
       { name: 'SSW', href: '/service/ssw' },
+      { name: 'Immigration Lawyer', href: '/service/immigration' },
       { name: 'Our Services', href: '/service/ourservice' },
       { name: 'Other Services', href: '/service/other' },
-      // { name: 'Solomon Capital japan inc.', href: '/service/solomoncapital' },
     ]
   },
   { name: 'Contact', href: '/contact' }

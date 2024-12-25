@@ -47,6 +47,11 @@ const ourServices = [
         href: '/service/ssw'
     },
     {
+        name: 'Immigration Lawyer',
+        name_jp: '移民専門行政書士',
+        href: '/service/immigration'
+    },
+    {
         name: 'Real Estate Consultant',
         name_jp: '不動産コンサルタント',
         href: '/service/realstate-consultant'

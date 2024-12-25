@@ -18,4 +18,4 @@ export interface DetailType {
 }
 
 
-export type PageType = "news" | "recruitment" | "ssw" | "educational" | "travel" | "realstate" | "details" | "others";
+export type PageType = "news" | "recruitment" | "ssw" | "immigration" | "educational" | "travel" | "realstate" | "details" | "others";

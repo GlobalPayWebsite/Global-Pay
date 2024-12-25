@@ -56,7 +56,7 @@ import React from 'react';
 import { useToggleLanguageConversion } from '@/utils/hooks/hooks';
 
 // Define the type for valid breadcrumb keys
-type BreadcrumbKeys = 'home' | 'about-us' | 'contact' | 'service' | 'recruitment' | 'ssw' | 'realEstate' | 'realstate-consultant' | 'educational-consultant' | 'travel-consultant' | 'ourservice' | 'other';
+type BreadcrumbKeys = 'home' | 'about-us' | 'contact' | 'service' | 'recruitment' | 'ssw' | 'immigration' | 'realEstate' | 'realstate-consultant' | 'educational-consultant' | 'travel-consultant' | 'ourservice' | 'other';
 
 // Updated translation mappings with the correct type
 const breadcrumbTranslations: Record<BreadcrumbKeys, { engTxt: string; japTxt: string }> = {
@@ -103,6 +103,10 @@ const breadcrumbTranslations: Record<BreadcrumbKeys, { engTxt: string; japTxt: s
     ourservice: {
         engTxt: "Our Services",
         japTxt: "私たちのサービス"
+    },
+    immigration: {
+        engTxt: "Immigration Lawyer",
+        japTxt: "移民専門行政書士"
     },
     other: {
         engTxt: "Other Services",
