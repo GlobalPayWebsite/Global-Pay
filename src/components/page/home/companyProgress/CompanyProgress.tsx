@@ -67,7 +67,7 @@ const CompanyProgress: React.FC = () => {
                 <p className="text-center mb-8 max-w-[720px]">
                     {toggleLanguage({
                         engTxt: "Our company is dedicated to delivering excellent service, helping clients achieve their goals with tailored solutions. With a focus on quality and client satisfaction, we’re here to support you every step of the way.",
-                        japTxt: "当社は、優れたサービスを提供し、お客様に合わせたソリューションで目標を達成できるよう支援することに専念しています。焦点を当てて"
+                        japTxt: "当社は、優れたサービスを提供し、お客様に合わせたソリューションで目標を達成できるよう支援することに専念しています。品質と顧客満足度に重点を置き、あらゆる段階でお客様をサポ​​ートいたします。"
                     })}
                 </p>
             </motion.div>

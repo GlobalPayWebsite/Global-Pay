@@ -24,8 +24,8 @@ const Contact = () => {
                     <div className='flex items-center gap-1'>
                         {toggleLanguage({
                             engTxt: "1-chome 20-17 Hyakunincho, Shinjuku City, Tokyo 169-0073",
-                            japTxt: "東京都新宿区百人町１－２０－１７　星野ビル１０１号室 "
-                        })},
+                            japTxt: "東京都新宿区百人町１－２０－１７　星野ビル１０１号室"
+                        })}
                     </div>
                     <div className='flex items-center gap-1'>
                         <a href='/' target='_blank' className='underline font-bold'>www.globalpay.co.jp</a>

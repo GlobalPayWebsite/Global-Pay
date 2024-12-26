@@ -21,7 +21,7 @@ const banners = [
         "sub-tag": "Explore Our Services",
         "heading_jp": "あなたのグローバル",
         "sub-heading_jp": "パートナー",
-        "paragraph_jp": "Global Pay Co., Ltd. では、人材採用、不動産、教育コンサルティングにわたるシームレスなソリューションを提供しています。お客様のニーズに合わせたサービスで、成功への道をお手伝いいたします",
+        "paragraph_jp": "Global Pay Co., Ltd. では、人材採用、不動産、教育コンサルティングにわたるシームレスなソリューションを提供しています。お客様のニーズに合わせたサービスで、成功への道をお手伝いいたします。",
         "sub-tag_jp": "当社のサービスを探索する",
         "image": "/assets/global.jpg",
         "link": "/service/recruitment",
@@ -47,10 +47,23 @@ const banners = [
         "sub-tag": "Learn More",
         "heading_jp": "あなたのグローバル",
         "sub-heading_jp": "パートナー",
-        "paragraph_jp": "Global Pay Co., Ltd. では、人材採用、不動産、教育コンサルティングにわたるシームレスなソリューションを提供しています。お客様のニーズに合わせたサービスで、成功への道をお手伝いいたします",
+        "paragraph_jp": "Global Pay Co., Ltd. では、人材採用、不動産、教育コンサルティングにわたるシームレスなソリューションを提供しています。お客様のニーズに合わせたサービスで、成功への道をお手伝いいたします。",
         "sub-tag_jp": "当社のサービスを探索する",
         "image": "/assets/realstate.png",
         "link": "/service/realstate-consultant",
+        "imagePosition": "object-center"
+    },
+    {
+        "heading": "Immigration",
+        "sub-heading": "Lawyer",
+        "paragraph": "Expert legal assistance for smooth immigration processes, ensuring personalized guidance and support every step of the way.",
+        "sub-tag": "Learn More",
+        "heading_jp": "移民専門行政書士",
+        "sub-heading_jp": "",
+        "paragraph_jp": "スムーズな移行手続きのための専門的な法的支援を提供し、すべてのステップで個別のガイダンスとサポートをお約束します。",
+        "sub-tag_jp": "当社のサービスを探索する",
+        "image": "/assets/immigrations/cover-img.jpg",
+        "link": "/service/immigration",
         "imagePosition": "object-center"
     },
     {

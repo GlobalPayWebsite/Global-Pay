@@ -45,8 +45,8 @@ const data = [
     {
         title: "Comprehensive SSW Visa Support",
         title_jp: "SSWビザの包括的サポート",
-        description: "Our team assists you throughout the SSW visa process, from documentation to final placement.",
-        description_jp: "私たちのチームは、SSWビザの申請プロセス全般をサポートします。書類作成から最終的な配置まで、すべての手続きをお手伝いします.",
+        description: "Our team assists you throughout the SSW visa process, from documentation to final placement",
+        description_jp: "私たちのチームは、SSWビザの申請プロセス全般をサポートします。書類作成から最終的な配置まで、すべての手続きをお手伝いします。",
     },
     {
         title: "Comprehensive Rental Assistance",

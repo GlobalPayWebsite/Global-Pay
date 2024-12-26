@@ -66,8 +66,8 @@ export const travelConsultantdataList: DetailType[] = [
     _id: "4",
     title: "Accommodation Booking",
     title_jp: "宿泊予約",
-    subtitle: "Our team of experts will help you plan your trip to Japan",
-    subtitle_jp: "私たちの専門家があなたの日本旅行をサポートします",
+    subtitle: "Find Your Perfect Stay for Every Journey",
+    subtitle_jp: "すべての旅に最適なお部屋を見つけましょう",
     category: "Travel Assistance",
     category_jp: "旅行サポート",
     description:
@@ -104,8 +104,8 @@ export const travelConsultantdataList: DetailType[] = [
     _id: "6",
     title: "Frequent Flyer Programs and Loyalty Rewards",
     title_jp: "マイレージプログラムとロイヤルティリワード",
-    subtitle: "Our team of experts will help you plan your trip to Japan",
-    subtitle_jp: "私たちの専門家があなたの日本旅行をサポートします",
+    subtitle: "Earn Miles and Rewards Every Time You Travel",
+    subtitle_jp: "旅するたびにマイルとリワードを貯めよう",
     category: "Travel Assistance",
     category_jp: "旅行サポート",
     description:
