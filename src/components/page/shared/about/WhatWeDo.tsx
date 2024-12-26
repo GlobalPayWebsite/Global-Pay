@@ -47,7 +47,7 @@ const WhatWeDO = () => {
     return (
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {services.map((service, index) => (
-                <Link href={service.link_url}>
+                <Link key={0} href={service.link_url}>
                 <motion.div
                     key={index}
                     className={`flex flex-col gap-3 items-center bg-white rounded-lg p-6 border-2 hover:shadow-2xl hover:border-theme `}
