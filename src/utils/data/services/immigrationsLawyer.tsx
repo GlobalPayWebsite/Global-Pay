@@ -3,7 +3,7 @@ import { DetailType } from "@/typing";
 export const ImmigrationLawyerDataList: DetailType[] = [
     {
         _id: '1',
-        title: 'Expert Legal Guidance.',
+        title: 'Expert Legal Guidance',
         title_jp: '専門的な法的サポート',
         subtitle: 'How Expert Legal Counsel Can Strengthen Your Legal Strategy and Ensure Better Outcomes.',
         subtitle_jp: '専門的な法的助言でお客様の戦略を強化し、より良い結果を保証します。',
