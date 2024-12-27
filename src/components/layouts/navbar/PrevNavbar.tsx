@@ -33,7 +33,7 @@ const navLinks: NavLink[] = [
       { name: 'Recruitment', href: '/service/recruitment' },
       { name: 'Our Services', href: '/service/others' },
       { name: 'Other Services', href: '/service/others' },
-      { name: 'Immigration Lawyer', href: '/service/immigration' },
+      { name: 'Visa Consultant', href: '/service/immigration' },
     ]
   },
   { name: 'Contact', href: '/contact' }

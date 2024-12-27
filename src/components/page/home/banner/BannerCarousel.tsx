@@ -54,11 +54,11 @@ const banners = [
         "imagePosition": "object-center"
     },
     {
-        "heading": "Immigration",
-        "sub-heading": "Lawyer",
+        "heading": "Visa",
+        "sub-heading": "Consultant",
         "paragraph": "Expert legal assistance for smooth immigration processes, ensuring personalized guidance and support every step of the way.",
         "sub-tag": "Learn More",
-        "heading_jp": "移民専門行政書士",
+        "heading_jp": "ビザコンサルタント",
         "sub-heading_jp": "",
         "paragraph_jp": "スムーズな移行手続きのための専門的な法的支援を提供し、すべてのステップで個別のガイダンスとサポートをお約束します。",
         "sub-tag_jp": "当社のサービスを探索する",

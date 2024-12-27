@@ -15,14 +15,6 @@ const usefulLinks = [
         name_jp: '当社について',
         href: '/about-us'
     },
-    // {
-    //     name: 'Recruitment Service',
-    //     href: '/service/recruitment'
-    // },
-    // {
-    //     name: 'Other Services',
-    //     href: '/service/others'
-    // },
     {
         name: 'Contact Us',
         name_jp: 'お問い合わせ',
@@ -47,8 +39,8 @@ const ourServices = [
         href: '/service/ssw'
     },
     {
-        name: 'Immigration Lawyer',
-        name_jp: '移民専門行政書士',
+        name: 'Visa Consultant',
+        name_jp: 'ビザコンサルタント',
         href: '/service/immigration'
     },
     {

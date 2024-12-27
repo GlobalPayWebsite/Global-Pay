@@ -105,8 +105,8 @@ const breadcrumbTranslations: Record<BreadcrumbKeys, { engTxt: string; japTxt: s
         japTxt: "私たちのサービス"
     },
     immigration: {
-        engTxt: "Immigration Lawyer",
-        japTxt: "移民専門行政書士"
+        engTxt: "Visa Consultant",
+        japTxt: "ビザコンサルタント"
     },
     other: {
         engTxt: "Other Services",

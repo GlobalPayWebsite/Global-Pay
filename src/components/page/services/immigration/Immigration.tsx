@@ -18,13 +18,13 @@ const Immigration: React.FC = () => {
             <ServiceRow
                 title={
                     toggleLanguage({
-                        engTxt: "Immigration Lawyer",
-                        japTxt: "移民専門行政書士"
+                        engTxt: "Visa Consultant",
+                        japTxt: "ビザコンサルタント"
                     }) as string || ""
                 }
                 description={toggleLanguage({
-                    engTxt: "We provide expert legal support for navigating Japan's immigration system smoothly and efficiently.",
-                    japTxt: "日本の入国管理手続きをスムーズかつ効率的に進めるための専門的な法的サポートを提供します。"
+                    engTxt: "Your Trusted Partner for Visa Solutions",
+                    japTxt: "信頼できるビザソリューションのパートナー。"
                 }) as string || ""}
                 serviceData={ImmigrationLawyerDataList}
                 pageType='immigration'
