@@ -23,21 +23,32 @@ const services = [
         link_url: "service/ssw"
     },
     {
-        title: "Real Estate",
-        title_jp: "不動産",
-        description: "Help clients navigate the Japanese property market, offering expert guidance on buying, selling, or renting properties, with personalized support for both residential and commercial needs.",
-        description_jp: "住宅と商業の両方のニーズに合わせた個別のサポートを提供し、不動産の購入、売却、賃貸に関する専門家によるガイダンスを提供し、お客様が日本の不動産市場をナビゲートできるよう支援します。",
-        iconUrl: '/assets/icons/realstate.png',
-        link_url: "service/realstate-consultant"
+        title: "Real Estate & Education",
+        title_jp: "不動産と教育",
+        // description: "Help clients navigate the Japanese property market, offering expert guidance on buying, selling, or renting properties, with personalized support for both residential and commercial needs.",
+        description:"We offer expert support for property needs and education in Japan, ensuring a seamless, stress-free journey in finding ideal homes and achieving academic and career goals.",
+        // description_jp: "住宅と商業の両方のニーズに合わせた個別のサポートを提供し、不動産の購入、売却、賃貸に関する専門家によるガイダンスを提供し、お客様が日本の不動産市場をナビゲートできるよう支援します。",
+        description_jp:"日本での不動産ニーズと教育に関する専門的なサポートを提供し、理想の住まい探しや学業・キャリア目標の達成をスムーズでストレスのない旅へと導きます。",
+        // iconUrl: '/assets/icons/realstate.png',
+        iconUrl: '/assets/icons/realedu.png',
+        link_url: "service/ourservice"
     },
+    // {
+    //     title: "Education",
+    //     title_jp: "教育",
+    //     description: "Offers personalized guidance for students seeking to study in Japan, helping with school selection, application processes, and visa support to ensure a smooth transition into academic life.",
+    //     description_jp: "日本への留学を希望する学生に個別の指導を提供し、学校選択、出願手続き、ビザサポートなどを支援し、学業生活へのスムーズな移行を保証します。",
+    //     iconUrl: '/assets/icons/image.png',
+    //     link_url: "service/educational-consultant"
+    // },
     {
-        title: "Education",
-        title_jp: "教育",
-        description: "Offers personalized guidance for students seeking to study in Japan, helping with school selection, application processes, and visa support to ensure a smooth transition into academic life.",
-        description_jp: "日本への留学を希望する学生に個別の指導を提供し、学校選択、出願手続き、ビザサポートなどを支援し、学業生活へのスムーズな移行を保証します。",
-        iconUrl: '/assets/icons/image.png',
-        link_url: "service/educational-consultant"
-    },
+        title: "Visa Consultant",
+        title_jp: "ビザコンサルタント",
+        description: "Expert visa consulting services to simplify application processes, ensure accurate documentation, and provide personalized guidance for a smooth and successful experience.",
+        description_jp: "専門的なビザコンサルティングサービスを提供し、申請手続きの簡略化、正確な書類作成、そしてスムーズで成功につながる個別のサポートを行います。",
+        iconUrl: "/assets/icons/visa.png",
+        link_url: "service/immigration"
+    }
 ];
 
 
@@ -57,7 +68,7 @@ const WhatWeDO = () => {
                     <div className="p-3 bg-background border-2 border-theme rounded-lg">
                         <Image src={service.iconUrl} alt={service.title} height={40} width={40} className='w-7 h-7 object-contain' />
                     </div>
-                    <h3 className="text-xl font-semibold">{toggleLanguage({
+                    <h3 className="text-lg font-semibold">{toggleLanguage({
                         engTxt: service.title,
                         japTxt: service.title_jp
                     })}</h3>
